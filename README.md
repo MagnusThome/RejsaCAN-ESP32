@@ -4,6 +4,8 @@ RejsaCAN is an ESP32 based board aimed at car use that I put together for my own
 
 There is no bespoke code for the board apart from pin definitions, it's just a piece of universal hardware, but by using easy to use open source Arduino libraries it can be made to interface not only to various CAN buses, Network/Wifi and Bluetooth but to numerous sensors and other peripherals using the ESP32's built in interfaces.
 
+If you think the board really would fit your project you can give me a holler at magnust@gmail.com. I had JLCPCB make and assemble my own small batch of boards.
+
 <!--img src=pics/3dcad.png align=right width=38%-->
 <img src=pics/3dcad.png>
 

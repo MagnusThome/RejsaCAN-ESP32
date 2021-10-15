@@ -1,4 +1,4 @@
-## RejsaCAN
+# RejsaCAN
 
 RejsaCAN is an ESP32 based board aimed at car use. It has an on board CAN interface and can be powered directly from the car (5-26V). It also includes the option to auto shutdown so not to drain the car battery.
 
@@ -26,15 +26,18 @@ Using available open source Arduino libraries it can be used to easily interface
 - SPI or I2C based color displays to show CAN bus data like IC intake or oil temps
 - SPI or I2C based color displays to show live telemetric data fetched over BLE from Racechrono
 
-## Functinality
+# Functinality
 
-# Auto shutdown
+## Auto shutdown
 
 When the engine is running and charging the car battery the incoming voltage used to power the board is a little bit higher than when the engine is stopped. This can be used to automate starting the board and shutting it down completely, so not to draing the car battery.
 
 The board reads the incoming power voltage in two ways:
 
-- Using an ADC in the ESP32 the voltage powering the board can beread and monitored in the code
+- Using an ADC in the ESP32 the voltage powering the board can be read and monitored in your code
 
-- There is a fixed threshold for the incoming power voltage that is used to turn on and also completely shutdown the whole board. This is active per default but can be disabled (and slighlty adjusted) by modifying the board.
+- As default the on board DC-DC circuit converting incoming voltage to 3,3V will shutdown the whole board when the incoming power voltage drops down to "car is parked, battery isn't charging" and restart the board when the voltage increases to "car is started, battery is charging". This can be disabled by a small modification on the board so it always runs (down to 5V).
 
+In addition to the above, once the board is running you can force to keep the board running even if the power voltage drops due to the engine being turned off. This is done by pulling a pin high so you can programatically keep the board running during a pit stop or a red light even if the car engine temporarily shuts down.
+
+# ----

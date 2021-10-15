@@ -17,7 +17,7 @@ Using available open source Arduino libraries it can be used to easily interface
 
 ## Examples
 
-- CAN to Wifi or BLE bridge
+- CAN to BLE or network/Wifi bridge
 - CAN interface for sniffing CAN bus with for example Savvycan
 - Read I2C/SPI/analog sensor data and write on CAN bus
 - Publish live telemetric data on internet from Racechrono over BLE

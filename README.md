@@ -12,8 +12,7 @@ Using available open source Arduino libraries it can be used to easily interface
 - Wifi (both as AP or client)
 - Numerous TCP/IP standards (everything from simple http, mqtt, ajax, ntp to running a full webserver on it with a user interface)
 - USB port (serial in/out)
-- Analog inputs
-- PWM or analog outputs
+- Analog input, PWM or analog output
 
 ## Examples
 

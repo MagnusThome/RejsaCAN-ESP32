@@ -45,4 +45,8 @@ The board reads the incoming power voltage in two ways:
 
 In addition to the above, once the board is running you can force to keep the board running even if the power voltage drops due to the engine being turned off. This is done by pulling a pin high so you can programatically keep the board running during a pit stop or a red light even if the car engine temporarily shuts down.
 
-# ----
+## CAN interface
+
+Using the ESP32's built in CAN driver and an external CAN transceiver chip with a CAN termination resistor you can hook up the board straight to the car's OBD2 port or attach it directly on any CAN bus. You just need to connect the four wires. 12V power, ground, CAN high and low.
+
+More CAN ports can be added using the readily available and cheap MCP2515 boards.

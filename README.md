@@ -21,20 +21,20 @@ If you think the board really would fit your project you can give me a holler at
 
 ## Examples
 
-- Read CAN data and send back CAN packets to control the car (set to sport mode as default, lock doors when driving away)
+- Read CAN data and send back CAN packets to control the car (set to sport mode as default, lock doors when driving away, this is one of my current projects)
 - CAN to BLE or network/Wifi bridge
 - CAN interface for sniffing CAN bus with for example Savvycan
 - Read I2C/SPI/analog sensor data and write to CAN bus for CAN bus based data loggers
-- Publish live telemetric data on internet from Racechrono
-- Drive alarm beeper or LED to show status of CAN data (like my Money Shift Saver)
+- Publish live telemetric data on internet from Racechrono (I'm starting this project now) 
+- Drive alarm beeper or LED to show status of CAN data (like my small project Money Shift Saver)
 - Drive high power peripherals using a driver board
-- Translate CAN data between two CAN buses (like my Current Gear HUD here on github)
+- Translate CAN data between two CAN buses (like my small project Current Gear HUD here on github)
 
 ## Ideas for peripherals
 
 - A second CAN port (MCP2515 board)
-- IR camera sensor arrays (MLX90xxx or AMG8833) to log tire, brake, drivetrain temperatures over BLE to Racechrono or CAN based loggers (see RejsaRubberTrac)
-- Laser based TOF distance sensor to log suspension travel
+- IR camera sensor arrays (MLX90xxx or AMG8833) to log tire, brake, drivetrain temperatures over BLE to Racechrono or CAN based loggers (like my project RejsaRubberTrac)
+- Laser based TOF distance sensor to log suspension travel (I did this too with RejsaRubberTrac) 
 - SPI or I2C based color displays to show CAN bus data like IC intake or oil temps or alarms
 - SPI or I2C based color displays to show live telemetric data fetched over BLE from Racechrono
 - Driver board to drive high power items

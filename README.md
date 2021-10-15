@@ -51,7 +51,7 @@ Using the ESP32's built in CAN driver and an on board CAN transceiver chip with 
 
 More CAN ports can be added using the readily available and cheap MCP2515 boards.
 
-# On board LEDs  
+# Three on board LEDs  
 
 The board has two LEDs that are controlled by pins on the ESP32. This can be used to anything like indicating Wifi/bLE being connected, errors or whatnot. 
 

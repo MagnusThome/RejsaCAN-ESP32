@@ -50,3 +50,5 @@ In addition to the above, once the board is running you can force to keep the bo
 Using the ESP32's built in CAN driver and an external CAN transceiver chip with a CAN termination resistor you can hook up the board straight to the car's OBD2 port or attach it directly on any CAN bus. You just need to connect the four wires. 12V power, ground, CAN high and low.
 
 More CAN ports can be added using the readily available and cheap MCP2515 boards.
+
+#  

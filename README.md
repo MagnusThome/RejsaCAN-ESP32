@@ -2,7 +2,7 @@
 
 RejsaCAN is an ESP32 based board aimed at car use. It has an on board CAN interface and can be powered directly from the car (5-26V). It also includes the option to auto shutdown so not to drain the car battery.
 
-Using available open source Arduino libraries it can be used to easily interface not only to various CAN buses but to numerous sensors and other periphals using the ESP32's built in interfaces.
+Using available open source Arduino libraries it can be used to easily interface not only to various CAN buses, Network/Wifi and Bluetooth but to numerous sensors and other periphals using the ESP32's built in interfaces.
 
 ## ESP32 interfaces
 

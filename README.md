@@ -1,6 +1,6 @@
 # RejsaCAN
 
-RejsaCAN is an ESP32 based board aimed at car use that I put together for my own use in my many different crazy projects :-) The board has an on board CAN interface and can be powered directly from the car (5-26V). It also includes the option to auto shutdown so not to drain the car battery.
+RejsaCAN is an ESP32 based board aimed at car use that I put together for my own use in my assorted crazy car projects. The board has an on board CAN interface and can be powered directly from the car (5-26V). It also includes the option to auto shutdown so not to drain the car battery.
 
 Using available open source Arduino libraries it can be used to easily interface not only to various CAN buses, Network/Wifi and Bluetooth but to numerous sensors and other peripherals using the ESP32's built in interfaces.
 
@@ -21,8 +21,9 @@ Using available open source Arduino libraries it can be used to easily interface
 - CAN interface for sniffing CAN bus with for example Savvycan
 - Read I2C/SPI/analog sensor data and write to CAN bus for CAN bus based data loggers
 - Publish live telemetric data on internet from Racechrono
-- Drive alarm beeper or LED to show status of CAN data
+- Drive alarm beeper or LED to show status of CAN data (like my Money Shift Saver)
 - Drive high power peripherals using a driver board
+- Translate CAN data between two CAN buses (like my Current Gear HUD here on github)
 
 ## Ideas for peripherals
 

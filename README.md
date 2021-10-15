@@ -29,8 +29,9 @@ Using available open source Arduino libraries it can be used to easily interface
 - Laser based TOF distance sensor to log suspension travel
 - SPI or I2C based color displays to show CAN bus data like IC intake or oil temps
 - SPI or I2C based color displays to show live telemetric data fetched over BLE from Racechrono
+- Drive alarm beeper or LED to show status of CAN data
 
-# Functinality
+# Functionality
 
 ## Auto shutdown
 

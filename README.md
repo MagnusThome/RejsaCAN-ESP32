@@ -2,7 +2,7 @@
 
 RejsaCAN is an ESP32 based board aimed at car use. It has an on board CAN interface and can be powered directly from the car (5-26V). It also includes the option to auto shutdown so not to drain the car battery.
 
-Using available Arduino libraries it can be used to easily interface not only to various CAN buses but to numerous sensors and other periphals using the ESP32's built in interfaces.
+Using available open source Arduino libraries it can be used to easily interface not only to various CAN buses but to numerous sensors and other periphals using the ESP32's built in interfaces.
 
 - SPI bus
 - I2C bus
@@ -24,4 +24,17 @@ Using available Arduino libraries it can be used to easily interface not only to
 - IR camera sensor arrays (MLX90xxx or AMG8833) to log tire, brake, drivetrain temperatures over BLE to Racechrono or CAN based loggers (see RejsaRubberTrac)
 - Laser based TOF distance sensor to log suspension travel
 - SPI or I2C based color displays to show CAN bus data like IC intake or oil temps
-- SPI or I2C based color displays to show live telemtric data fetched over BLE from Racechrono
+- SPI or I2C based color displays to show live telemetric data fetched over BLE from Racechrono
+
+## Functinality
+
+# Auto shutdown
+
+When the engine is running and charging the car battery the incoming voltage used to power the board is a little bit higher than when the engine is stopped. This can be used to automate starting the board and shutting it down completely, so not to draing the car battery.
+
+The board reads the incoming power voltage in two ways:
+
+- Using an ADC in the ESP32 the voltage powering the board can beread and monitored in the code
+
+- There is a fixed threshold for the incoming power voltage that is used to turn on and also completely shutdown the whole board. This is active per default but can be disabled (and slighlty adjusted) by modifying the board.
+

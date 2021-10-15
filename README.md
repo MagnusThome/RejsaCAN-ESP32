@@ -16,10 +16,13 @@ Using available open source Arduino libraries it can be used to easily interface
 
 ## Examples
 
+- Read CAN data and send back CAN packets to control the car (set to sport mode as default, lock doors when driving away)
 - CAN to BLE or network/Wifi bridge
 - CAN interface for sniffing CAN bus with for example Savvycan
-- Read I2C/SPI/analog sensor data and write on CAN bus
-- Publish live telemetric data on internet from Racechrono over BLE
+- Read I2C/SPI/analog sensor data and write to CAN bus for CAN bus based data loggers
+- Publish live telemetric data on internet from Racechrono
+- Drive alarm beeper or LED to show status of CAN data
+- Drive high power peripherals using a driver board
 
 ## Ideas for peripherals
 
@@ -28,7 +31,9 @@ Using available open source Arduino libraries it can be used to easily interface
 - Laser based TOF distance sensor to log suspension travel
 - SPI or I2C based color displays to show CAN bus data like IC intake or oil temps
 - SPI or I2C based color displays to show live telemetric data fetched over BLE from Racechrono
-- Drive alarm beeper or LED to show status of CAN data
+- Driver board to drive high power items
+- Step motor drivers
+- Multiple input analog or digital boards
 
 # Functionality
 

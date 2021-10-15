@@ -35,7 +35,7 @@ Using available open source Arduino libraries it can be used to easily interface
 
 ## Auto shutdown
 
-When the engine is running and charging the car battery the incoming voltage used to power the board is a little bit higher than when the engine is stopped. This can be used to automate starting the board and shutting it down completely, so not to draing the car battery.
+When the engine is running and charging the car battery the incoming voltage used to power the board is a little bit higher than when the engine is stopped. This can be used to automate starting the board and shutting it down completely, so not to drain the car battery.
 
 The board reads the incoming power voltage in two ways:
 

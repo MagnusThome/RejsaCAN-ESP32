@@ -63,7 +63,7 @@ More CAN ports can be added using the readily available and cheap MCP2515 boards
 
 ## Three on board LEDs  
 
-The board has two LEDs that are controlled by pins on the ESP32. This can be used to anything like indicating Wifi/bLE being connected, errors or whatnot. 
+The board has two LEDs that are controlled by pins on the ESP32. This can be used for anything, like indicating Wifi/BLE being connected, errors or whatnot. 
 
 There is also a third LED that indicates that the board is powered on.
 

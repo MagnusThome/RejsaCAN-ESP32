@@ -43,7 +43,7 @@ The board reads the incoming power voltage in two ways:
 
 - As default the on board DC-DC circuit converting incoming voltage to 3,3V will shutdown the whole board when the incoming power voltage drops down to "car is parked, battery isn't charging" and restart the board when the voltage increases to "car is started, battery is charging". This can be disabled by a small modification on the board so it always runs (down to 5V).
 
-In addition to the above, once the board is running you can programatically force to keep the board running even if the power voltage drops due to the engine being turned off. This is done by pulling a pin high so you can for example keep the board running during a pit stop or a red light even if the car engine temporarily shuts down.
+In addition to the above, once the board is running you can programatically force to keep it running even if the power voltage drops due to the engine being turned off. This is done by pulling a pin high so you can for example keep the board running during a pit stop or a red light even if the car engine temporarily shuts down.
 
 ## CAN interface
 

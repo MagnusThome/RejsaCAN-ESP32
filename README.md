@@ -35,7 +35,7 @@ If you think the board really would fit your project you can give me a holler at
 - A second CAN port (MCP2515 board)
 - IR camera sensor arrays (MLX90xxx or AMG8833) to log tire, brake, drivetrain temperatures over BLE to Racechrono or CAN based loggers (see RejsaRubberTrac)
 - Laser based TOF distance sensor to log suspension travel
-- SPI or I2C based color displays to show CAN bus data like IC intake or oil temps
+- SPI or I2C based color displays to show CAN bus data like IC intake or oil temps or alarms
 - SPI or I2C based color displays to show live telemetric data fetched over BLE from Racechrono
 - Driver board to drive high power items
 - Step motor drivers

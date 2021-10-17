@@ -67,6 +67,8 @@ The board has two LEDs that are controlled by pins on the ESP32. This can be use
 
 There is also a third LED that indicates that the board is powered on.
 
+<img src=pics/schematic_v2.1.png>
+
 ## Connecting the board
 
 I've used a widely available OBD2 splitter cable (flat cable) that has one male and two female connectors. I hook up the male connector to the car, cut off one female connector and wire the remaining pig tail cable into the RejsaCAN board and one female connector is then free for other equipment to hook up to the car.

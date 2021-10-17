@@ -45,25 +45,27 @@ If you think the board really would fit your project you can give me a holler at
 
 ## Auto shutdown
 
-When the engine is running and charging the car battery the incoming voltage used to power the board is a little bit higher than when the engine is stopped. This can be used to automate starting the board and shutting it down completely, so not to drain the car battery.
+When the engine is running and charging the car battery the incoming voltage used to power the board is a little bit higher than when the engine is stopped. This can be used to automate board shutdown so not to drain the car battery.
 
 The board reads the incoming power voltage in two ways:
 
 - Using an ADC in the ESP32 the voltage powering the board can be read and monitored in your code
 
-- As default the on board DC-DC circuit converting incoming voltage to 3,3V will shutdown the whole board when the incoming power voltage drops down to "car is parked, battery isn't charging" and restart the board when the voltage increases to "car is started, battery is charging". This can be disabled by a small modification on the board so it always runs (down to 5V).
+- As default the on board DC-DC power circuit will shutdown the whole board when the power voltage is below the "engine is running" threshold and boot up the  board when it is above. This can be disabled by a small modification on the board so it always runs (5-26V)
 
 In addition to the above, once the board is running you can programmatically force it to keep running even if the power voltage drops due to the engine being turned off. This is done by pulling a pin high so you can for example keep the board running during a pit stop or a red light even if the car engine temporarily shuts down.
 
+Powering the whole board with 5V via the USB type C connector will also disable the on board DC-DC circuit's auto shutdown.
+
 ## CAN interface
 
-Using the ESP32's built in CAN driver and an on board CAN transceiver chip with a CAN termination resistor you can hook up the board straight to the car's OBD2 port or attach it directly on any CAN bus. You just need to connect the four wires. 12V power, ground, CAN high and low.
+Using the ESP32's built in CAN driver and an on board CAN transceiver chip with a CAN termination resistor you can hook the board up straight to the car's OBD2 port or attach it directly on any CAN bus. You just need to connect the four wires. 12V power, ground, CAN high and low.
 
 More CAN ports can be added using the readily available and cheap MCP2515 boards.
 
 ## Three on board LEDs  
 
-The board has two LEDs that are controlled by pins on the ESP32. This can be used for anything, like indicating Wifi/BLE being connected, errors or whatnot. 
+The board has two LEDs that are controlled by pins on the ESP32. These can be used for anything, like indicating Wifi/BLE being connected, errors or whatnot. 
 
 There is also a third LED that indicates that the board is powered on.
 
@@ -75,6 +77,6 @@ There is also a third LED that indicates that the board is powered on.
 
 I've used a widely available OBD2 splitter cable (flat cable) that has one male and two female connectors. I hook up the male connector to the car, cut off one female connector and wire the remaining pig tail cable into the RejsaCAN board and one female connector is then free for other equipment to hook up to the car.
 
-Picture showing what wires to use but please measure your cable and don't trust all these splitter cables are 100% identical. (the second female splitter connector is not visible in pic)
+Picture showing what wires to use but please measure your cable and don't trust all these splitter cables to be 100% identical. (the second female splitter connector is not visible in pic)
 
 <img src=pics/OBD2%20splitter%20pinout.jpg>

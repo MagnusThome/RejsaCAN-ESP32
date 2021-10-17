@@ -23,7 +23,7 @@ If you think the board really would fit your project you can give me a holler at
 
 - Read CAN data and send back CAN packets to control the car (set to sport mode as default, lock doors when driving away, this is one of my current projects)
 - CAN to BLE or network/Wifi bridge
-- CAN interface for sniffing CAN bus with for example Savvycan
+- CAN interface for sniffing CAN bus with for example SavvyCAN
 - Read I2C/SPI/analog sensor data and write to CAN bus for CAN bus based data loggers
 - Publish live telemetric data on internet from Racechrono (I'm starting this project now) 
 - Drive alarm beeper or LED to show status of CAN data (like my small project Money Shift Saver)

@@ -53,7 +53,7 @@ The board reads the incoming power voltage in two ways:
 
 - As default the on board DC-DC power circuit will shutdown the whole board when the power voltage is below the "engine is running" threshold and boot up the  board when it is above. This can be disabled by a small modification on the board so it always runs (5-24V)
 
-In addition to the above, once the board is running you can programmatically force it to keep running even if the power voltage drops due to the engine being turned off. This is done by pulling a pin high so you can for example keep the board running during a pit stop or a red light even if the car engine temporarily shuts down.
+In addition to the above, once the board is running you can programmatically force it to keep running even if the power voltage drops due to the engine being turned off. This is done by pulling a pin high so you can for example keep the board running during a pit stop or a red light even if the car engine temporarily shuts down. See the example code!
 
 Powering the whole board with 5V via the USB type C connector will also disable the on board DC-DC circuit's auto shutdown.
 

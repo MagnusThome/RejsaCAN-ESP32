@@ -1,6 +1,6 @@
 # RejsaCAN
 
-RejsaCAN is a 3x5 centimeters small ESP32 based board aimed at car use that I put together for my own use in my assorted crazy car projects. The board has an on board CAN interface and can be powered directly from the car (5-26V). It also includes the option to auto shutdown so not to drain the car battery.
+RejsaCAN is a 3x5 centimeters small ESP32 based board aimed at car use that I put together for my own use in my assorted crazy car projects. The board has an on board CAN interface and can be powered directly from the car (5-24V). It also includes the option to auto shutdown so not to drain the car battery.
 
 There is no bespoke code for the board apart from pin definitions, it's just a piece of universal hardware, but by using easy to use open source Arduino libraries it can be made to interface not only to various CAN buses, Network/Wifi and Bluetooth but to numerous sensors and other peripherals using the ESP32's built in interfaces.
 
@@ -51,7 +51,7 @@ The board reads the incoming power voltage in two ways:
 
 - Using an ADC in the ESP32 the voltage powering the board can be read and monitored in your code
 
-- As default the on board DC-DC power circuit will shutdown the whole board when the power voltage is below the "engine is running" threshold and boot up the  board when it is above. This can be disabled by a small modification on the board so it always runs (5-26V)
+- As default the on board DC-DC power circuit will shutdown the whole board when the power voltage is below the "engine is running" threshold and boot up the  board when it is above. This can be disabled by a small modification on the board so it always runs (5-24V)
 
 In addition to the above, once the board is running you can programmatically force it to keep running even if the power voltage drops due to the engine being turned off. This is done by pulling a pin high so you can for example keep the board running during a pit stop or a red light even if the car engine temporarily shuts down.
 

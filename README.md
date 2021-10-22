@@ -69,6 +69,8 @@ The board has two LEDs that are controlled by pins on the ESP32. These can be us
 
 There is also a third LED that indicates that the board is powered on.
 
+<img src=pics/2.0-photo.jpg>
+
 ## Schematics
 
 <img src=pics/Schematic_2.1.png>

@@ -73,7 +73,7 @@ There is also a third LED that indicates that the board is powered on.
 
 ## Schematics
 
-<img src=pics/Schematic_RejsaCAN%202.1_2021-10-23.png>
+<img src=pics/Schematic_RejsaCAN_2.1_2021-10-23.png>
 
 ## Connecting the board
 

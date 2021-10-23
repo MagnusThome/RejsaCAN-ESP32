@@ -6,8 +6,8 @@ There is no bespoke code for the board apart from pin definitions, it's just a p
 
 If you think the board really would fit your project you can give me a holler at magnust@gmail.com. I had JLCPCB make and assemble my own small batch of boards.
 
-<img src=pics/3d-frontside.jpg>
-<img src=pics/3d-backside.jpg>
+<img src=pics/3D-topside.png>
+<img src=pics/3D-rear.png>
 
 ## ESP32 interfaces
 
@@ -73,7 +73,7 @@ There is also a third LED that indicates that the board is powered on.
 
 ## Schematics
 
-<img src=pics/Schematic_2.1.png>
+<img src=pics/Schematic_RejsaCAN%202.1_2021-10-23.png>
 
 ## Connecting the board
 

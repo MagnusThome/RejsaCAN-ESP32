@@ -30,6 +30,8 @@ If you think the board really would fit your project you can give me a holler at
 - Drive high power peripherals using a driver board
 - Translate CAN data between two CAN buses (like my small project Current Gear HUD here on github)
 
+- I have already made a connector board to attach the RejsaCAN on the back of the commonly available small ILI9341 touch screen.
+
 ## Ideas for peripherals
 
 - A second CAN port (MCP2515 board)
@@ -47,13 +49,9 @@ If you think the board really would fit your project you can give me a holler at
 
 When the engine is running and charging the car battery the incoming voltage used to power the board is a little bit higher than when the engine is stopped. This can be used to automate board shutdown so not to drain the car battery.
 
-The board reads the incoming power voltage in two ways:
+As default the on board DC-DC power circuit will shutdown the whole board when the power voltage is below the "engine is running" threshold and boot up the  board when it is above. This can be disabled by a small modification (a trace cut) on the board so it always runs regardless of voltage between 5V and 24V.
 
-- Using an ADC in the ESP32 the voltage powering the board can be read and monitored in your code
-
-- As default the on board DC-DC power circuit will shutdown the whole board when the power voltage is below the "engine is running" threshold and boot up the  board when it is above. This can be disabled by a small modification on the board so it always runs (5-24V)
-
-In addition to the above, once the board is running you can programmatically force it to keep running even if the power voltage drops due to the engine being turned off. This is done by pulling a pin high so you can for example keep the board running during a pit stop or a red light even if the car engine temporarily shuts down. See the example code!
+In addition to the above, once the board is up and running you can programmatically force it to keep running even if the voltage from the car drops below the threshold voltage due to the engine being turned off. Forcing the board to run regardless of the treshold is done by pulling a pin high forcing the DC DC converter to stay running. You can also  monitor one input pin that will go low when the power voltage drops below the set threshold, to for example start a timer to for example keep the board running during a pit stop or a red light, even if the car engine temporarily shuts down. 
 
 Powering the whole board with 5V via the USB type C connector will also disable the on board DC-DC circuit's auto shutdown.
 
@@ -73,7 +71,7 @@ There is also a third LED that indicates that the board is powered on.
 
 ## Schematics
 
-<img src=pics/Schematic_RejsaCAN%202.1_2021-10-24.png.png>
+<img src=pics/Schematic_RejsaCAN%202.1_2021-10-24.png>
 
 ## Connecting the board
 

@@ -80,3 +80,4 @@ I've used a widely available OBD2 splitter cable (flat cable) that has one male 
 Picture showing what wires to use but please measure your cable and don't trust all these splitter cables to be 100% identical. (the second female splitter connector is not visible in pic)
 
 <img src=pics/OBD2%20splitter%20pinout.jpg>
+

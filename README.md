@@ -26,7 +26,7 @@ If you think the board really would fit your project you can give me a holler at
 - CAN interface for sniffing CAN bus with for example SavvyCAN
 - Read I2C/SPI/analog sensor data and write to CAN bus for CAN bus based data loggers
 - Publish live telemetric data on internet from Racechrono (I'm starting this project now) 
-- Drive alarm beeper or LED to show status of CAN data (like my small project Money Shift Saver)
+- Drive alarm beeper or LED to show status of CAN data (like my small project Money Shift Saver and also low oil pressure warning)
 - Drive high power peripherals using a driver board
 - Translate CAN data between two CAN buses (like my small project Current Gear HUD here on github)
 

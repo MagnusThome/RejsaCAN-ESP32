@@ -56,7 +56,7 @@ In addition to the above, once the board is up and running you can programmatica
 Powering the whole board with 5V via the USB type C connector will also disable the on board DC-DC circuit's auto shutdown.
    
    
-<img src=pics/matrixstartstop.gif>
+<img src=pics/matrix%20power%20scenarios.gif>
    
    
 ## CAN interface

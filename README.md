@@ -6,8 +6,10 @@ There is no bespoke code for the board apart from pin definitions, it's just a p
 
 If you think the board really would fit your project you can give me a holler at magnust@gmail.com. I had JLCPCB make and assemble my own small batch of boards.
 
-<img src=pics/3D-top.gif>
-<img src=pics/3D-bottom.png>
+![3D-top](https://user-images.githubusercontent.com/32169384/138956802-6b7320bd-1454-43f5-831d-e7f24999b2de.gif)
+
+![3D-bottom](https://user-images.githubusercontent.com/32169384/138956826-b0159cc9-2b37-40f7-a675-4153993f79ef.png)
+
 
 ## ESP32 interfaces
 
@@ -71,7 +73,8 @@ The board has two LEDs that are controlled by pins on the ESP32. These can be us
 
 There is also a third LED that indicates that the board is powered on.
 
-<img src=pics/2.0-photo.jpg>
+![2 0-photo](https://user-images.githubusercontent.com/32169384/138956858-b6349ac5-0dbd-4614-9e06-7fb566154747.jpg)
+
 
 ## Schematics
 
@@ -89,10 +92,13 @@ Picture showing what wires to use but please measure your cable and don't trust 
 
 I've uploaded a small housing to the <a href=3dprint>3dprint directory</a>
 
-<img src=pics/small-housing(0).jpg>
+![small-housing(0)](https://user-images.githubusercontent.com/32169384/138956886-f83ddebf-1960-4e5f-990a-a6d5ac4cba14.jpg)
 
-<img src=pics/small-housing(1).jpg>
+![small-housing(1)](https://user-images.githubusercontent.com/32169384/138956907-5b824772-4a7d-4e6e-83ae-9dbffd630f16.jpg)
 
-<img src=pics/small-housing(3).jpg>
+![small-housing(3)](https://user-images.githubusercontent.com/32169384/138956928-8b44a92c-3336-4f66-8bfb-3b2ae9432360.jpg)
 
-<img src=pics/small-housing(2).jpg>
+![small-housing(2)](https://user-images.githubusercontent.com/32169384/138956945-97b0403a-e5a8-471f-bc6c-01ba239a281d.jpg)
+
+
+

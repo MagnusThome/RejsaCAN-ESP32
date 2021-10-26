@@ -6,7 +6,7 @@ There is no bespoke code for the board apart from pin definitions, it's just a p
 
 If you think the board really would fit your project you can give me a holler at magnust@gmail.com. I had JLCPCB make and assemble my own small batch of boards.
 
-<img src=pics/3D-top.png>
+<img src=pics/3D-top.gif>
 <img src=pics/3D-bottom.png>
 
 ## ESP32 interfaces

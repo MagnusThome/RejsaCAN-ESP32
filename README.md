@@ -54,7 +54,11 @@ As default the on board DC-DC power circuit will shutdown the whole board when t
 In addition to the above, once the board is up and running you can programmatically force it to keep running even if the voltage from the car drops below the threshold voltage due to the engine being turned off. Forcing the board to run regardless of the treshold is done by pulling a pin high forcing the DC DC converter to stay running. You can also  monitor one input pin that will go low when the power voltage drops below the set threshold, to for example start a timer to for example keep the board running during a pit stop or a red light, even if the car engine temporarily shuts down. 
 
 Powering the whole board with 5V via the USB type C connector will also disable the on board DC-DC circuit's auto shutdown.
-
+   
+   
+<img src=pics/matrixstartstop.gif>
+   
+   
 ## CAN interface
 
 Using the ESP32's built in CAN driver and an on board CAN transceiver chip with a CAN termination resistor you can hook the board up straight to the car's OBD2 port or attach it directly on any CAN bus. You just need to connect the four wires. 12V power, ground, CAN high and low.

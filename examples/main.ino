@@ -3,8 +3,8 @@
 #define FORCE_KEEP_ON     25  // GPIO25 
 #define POWER_IN_VOLTAGE  26  // GPIO26
 
-#define ENGINE_RUNNING_VOLT_THRESHOLD  900
-#define SECONDS_TO_STAY_ON             180
+#define ENGINE_RUNNING_VOLT_THRESHOLD  2600
+#define SECONDS_TO_STAY_ON             5
 
 
 void shutdowncounter(unsigned long secondsToStayOn);

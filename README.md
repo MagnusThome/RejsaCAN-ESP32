@@ -85,6 +85,10 @@ Picture showing what wires to use but please measure your cable and don't trust 
 
 <img src=pics/OBD2%20splitter%20pinout.jpg>
 
+## Housing
+
+I've uploaded a small housing to the <a href=3dprint>3dprint directory</a>
+
 <img src=pics/small-housing(0).jpg>
 
 <img src=pics/small-housing(1).jpg>

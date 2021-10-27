@@ -24,7 +24,7 @@ struct Ids ids[] = {
 BluetoothSerial SerialBT;
 
 void setup() {
-	Serial.begin(115200);
+  Serial.begin(115200);
   delay(200);
   Serial.println("\nBooting CAN getall");
 
@@ -131,8 +131,3 @@ void printFrameBT(CAN_FRAME &message) {
   SerialBT.println();
 }
 
-
-
-
-
-// ------- end --------

@@ -27,7 +27,7 @@ At https://github.com/collin80/ESP32RET you get the code to put on the ESP32 so 
 
 www.savvycan.com
 
-Menu on serial port over USB to set up ESP32RET on the RejsaCAN:
+Menu on serial port over USB to set up ESP32RET on the ESP32:
 
 ```
 Config Commands (enter command=newvalue). Current values shown in parenthesis:

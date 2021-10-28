@@ -6,6 +6,9 @@ There is no bespoke code for the board apart from pin definitions, it's just a p
 
 If you think the board really would fit your project you can give me a holler at magnust@gmail.com. I had JLCPCB make and assemble my own small batch of boards.
 
+Check out ideas and what I'm using the board for in the <a href=-%20PROJECTS%20->PROJECTS directory</a>   
+You also find <a href=examples>examples with code here</a> and <a href=3dprints>a 3D printable housing here</a>  
+
 ![blink](https://user-images.githubusercontent.com/32169384/139061702-0c1ab4f7-c37c-45c9-a2f5-edc9db0142e6.gif)
 
 ![3D-bottom](https://user-images.githubusercontent.com/32169384/138956826-b0159cc9-2b37-40f7-a675-4153993f79ef.png)

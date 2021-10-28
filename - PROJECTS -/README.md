@@ -27,6 +27,39 @@ https://github.com/collin80/ESP32RET
 
 www.savvycan.com
 
+Menu on serial port over USB to set up ESP32RET on the RejsaCAN:
+
+```
+Config Commands (enter command=newvalue). Current values shown in parenthesis:
+
+SYSTYPE=1 - Set board type (0 = Macchina A0, 1 = EVTV ESP32 Board
+LOGLEVEL=1 - set log level (0=debug, 1=info, 2=warn, 3=error, 4=off)
+
+CAN0EN=1 - Enable/Disable CAN0 (0 = Disable, 1 = Enable)
+CAN0SPEED=500000 - Set speed of CAN0 in baud (125000, 250000, etc)
+CAN0LISTENONLY=0 - Enable/Disable Listen Only Mode (0 = Dis, 1 = En)
+
+CAN1EN=1 - Enable/Disable CAN0 (0 = Disable, 1 = Enable)
+CAN1SPEED=500000 - Set speed of CAN0 in baud (125000, 250000, etc)
+CAN1LISTENONLY=0 - Enable/Disable Listen Only Mode (0 = Dis, 1 = En)
+
+CAN0SEND=ID,LEN,<BYTES SEPARATED BY COMMAS> - Ex: CAN0SEND=0x200,4,1,2,3,4
+CAN1SEND=ID,LEN,<BYTES SEPARATED BY COMMAS> - Ex: CAN1SEND=0x200,4,1,2,3,4
+MARK=<Description of what you are doing> - Set a mark in the log file about what you are about to do.
+
+BINSERIAL=0 - Enable/Disable Binary Sending of CANBus Frames to Serial (0=Dis, 1=En)
+
+BTMODE=0 - Set mode for Bluetooth (0 = Off, 1 = On)
+BTNAME=ELM327-ESP32RET - Set advertised Bluetooth name
+
+LAWICEL=1 - Set whether to accept LAWICEL commands (0 = Off, 1 = On)
+
+WIFIMODE=2 - Set mode for WiFi (0 = Wifi Off, 1 = Connect to AP, 2 = Create AP
+SSID=ESP32RETSSID - Set SSID to either connect to or create
+WPA2KEY=aBigSecret - Either passphrase or actual key
+
+```
+
 
 Good videos to get started:
 

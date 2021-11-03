@@ -5,10 +5,17 @@ RejsaCAN is a 3x5 centimeter small ESP32 based board aimed at car use that I put
 There is no bespoke code for the board apart from pin definitions, it's just a piece of universal hardware, but by using easy to use open source Arduino libraries it can be made to interface not only to various CAN buses, Network/Wifi and Bluetooth but to numerous sensors and other peripherals using the ESP32's built in interfaces.
 
 If you think the board really would fit your project you can give me a holler at magnust@gmail.com. I had JLCPCB make and assemble my own small batch of boards.
+  
+You find 3D printable housings here:
+-  <a href=3dprints>3D printable housings</a>  
 
-Check out ideas and what I'm using the board for in the <a href=-%20PROJECTS%20->PROJECTS directory</a>   
-You also find <a href=examples>examples with code here</a> and <a href=3dprints>a 3D printable housing here</a>  
-
+and you find example code here:
+- <a href=examples>Code examples</a>
+  
+Check out ideas and what I'm using the board for here: 
+- <a href=-%20PROJECTS%20->projects directory</a>   
+ 
+  
 ![blink](https://user-images.githubusercontent.com/32169384/139061702-0c1ab4f7-c37c-45c9-a2f5-edc9db0142e6.gif)
 
 ![3D-bottom](https://user-images.githubusercontent.com/32169384/138956826-b0159cc9-2b37-40f7-a675-4153993f79ef.png)
@@ -66,9 +73,7 @@ Powering the whole board with 5V via the USB type C connector will also disable 
    
 ## CAN interface
 
-Using the ESP32's built in CAN driver and an on board CAN transceiver chip with a CAN termination resistor you can hook the board up straight to the car's OBD2 port or attach it directly on any CAN bus. You just need to connect the four wires. 12V power, ground, CAN high and low.
-
-More CAN ports can be added using the readily available and cheap MCP2515 boards.
+You can hook the board up straight to the car's OBD2 port or attach it directly to any CAN bus. You just need to connect the four wires. 12V power, ground, CAN high and low. There is of course a bus termination resitor on the board, it can be disabled if not needed. More CAN ports can be added using cheap MCP2515 boards.
 
 ## Three on board LEDs  
 
@@ -78,6 +83,13 @@ There is also a third LED that indicates that the board is powered on.
 
 ![2 0-photo](https://user-images.githubusercontent.com/32169384/138956858-b6349ac5-0dbd-4614-9e06-7fb566154747.jpg)
 
+## Housing
+
+Check out 3D printable housings in the <a href=3dprint>the 3D-print directory</a>
+
+![small-housing(0)](https://user-images.githubusercontent.com/32169384/138956886-f83ddebf-1960-4e5f-990a-a6d5ac4cba14.jpg)
+
+![obd2-housing](https://user-images.githubusercontent.com/32169384/140200102-75e56449-3a75-4f79-912c-df56c4e33605.png)
 
 ## Schematics
 
@@ -90,22 +102,6 @@ I've used a widely available OBD2 splitter cable (flat cable) that has one male 
 Picture showing what wires to use but please measure your cable and don't trust all these splitter cables to be 100% identical. (the second female splitter connector is not visible in pic)
 
 <img src=pics/OBD2%20splitter%20pinout.jpg>
-
-## Housing
-
-I've uploaded a small housing to the <a href=3dprint>3dprint directory</a>
-
-![small-housing(0)](https://user-images.githubusercontent.com/32169384/138956886-f83ddebf-1960-4e5f-990a-a6d5ac4cba14.jpg)
-
-![small-housing(1)](https://user-images.githubusercontent.com/32169384/138956907-5b824772-4a7d-4e6e-83ae-9dbffd630f16.jpg)
-
-![small-housing(3)](https://user-images.githubusercontent.com/32169384/138956928-8b44a92c-3336-4f66-8bfb-3b2ae9432360.jpg)
-
-![small-housing(2)](https://user-images.githubusercontent.com/32169384/138956945-97b0403a-e5a8-471f-bc6c-01ba239a281d.jpg)
-
-I'm also making a housing with an OBD2 connector so you can plug it in to the car directly.  
-
-![OBD2-Housing](https://user-images.githubusercontent.com/32169384/140081608-a48d3b9e-b23d-41fb-9799-9375ab30df4c.png)
 
 
 

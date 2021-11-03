@@ -10,7 +10,7 @@ Two housings done so far. One very very small and thin and one slightly bigger w
 
 ![small-housing(2)](https://user-images.githubusercontent.com/32169384/138956945-97b0403a-e5a8-471f-bc6c-01ba239a281d.jpg)
 
-I'm also making a housing with an OBD2 connector so you can plug it in to the car directly.  
+Housing with an OBD2 connector so you can plug it in to the car directly.  
 
 ![OBD2-Housing](https://user-images.githubusercontent.com/32169384/140081608-a48d3b9e-b23d-41fb-9799-9375ab30df4c.png)
 

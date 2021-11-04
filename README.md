@@ -90,7 +90,10 @@ Check out 3D printable housings in the <a href=3dprint>the 3D-print directory</a
 
 ![small-housing(0)](https://user-images.githubusercontent.com/32169384/138956886-f83ddebf-1960-4e5f-990a-a6d5ac4cba14.jpg)
 
-![obd2-housing](https://user-images.githubusercontent.com/32169384/140200102-75e56449-3a75-4f79-912c-df56c4e33605.png)
+![5](https://user-images.githubusercontent.com/32169384/140327529-6724499a-9104-4c2b-b292-0a9bca6ae495.jpg)
+
+![4](https://user-images.githubusercontent.com/32169384/140327538-1fef4d27-3961-447a-bb28-ced90950dfcf.jpg)
+
 
 ## Schematics
 

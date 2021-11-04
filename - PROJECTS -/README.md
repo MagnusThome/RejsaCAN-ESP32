@@ -12,6 +12,13 @@ Just a first test of CAN info on the screen with ugly fonts ;-)  The wiring betw
 ![Touch-screen(0)](https://user-images.githubusercontent.com/32169384/138956181-5c421461-7e94-4a66-8d21-c0f54506565e.png)
 
 
+With a connector board to make it easier to connect the boards together
+
+![IMG_20211104_165820](https://user-images.githubusercontent.com/32169384/140426471-28c3b613-0b05-4048-9e02-b0b7103bf6a1.jpg)
+
+![IMG_20211104_165918](https://user-images.githubusercontent.com/32169384/140426480-feba0d24-58bd-43de-91d2-1683e2c2daaf.jpg)
+
+
 ## CAN log all to Serial over USB and Bluetooth
 
 I'm using Techstream (the software the garage uses to check up on the car) to ask for different non standard OBD2 data over the OBD2 port (steering angle, oil pressure, brake pressure...) and simultaneously log all the traffic with this RejsaCAN in the picture below, logging both the requests from Techstream and the replies from the car. Simple Arduino code for this is in the examples directory. I can either save all data over USB to my PC or save to a log file on my mobile phone over Bluetooth using for example this app https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en&gl=US

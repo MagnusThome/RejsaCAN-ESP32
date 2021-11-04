@@ -11,9 +11,9 @@ Just a first test of CAN info on the screen with ugly fonts ;-)  The wiring betw
 
 ![Touch-screen(0)](https://user-images.githubusercontent.com/32169384/138956181-5c421461-7e94-4a66-8d21-c0f54506565e.png)
 
+https://www.youtube.com/watch?v=f61Pw1ZjPyw
 
 With a connector board to make it easier to connect the boards together
-
 ![IMG_20211104_165820](https://user-images.githubusercontent.com/32169384/140426471-28c3b613-0b05-4048-9e02-b0b7103bf6a1.jpg)
 
 ![IMG_20211104_165918](https://user-images.githubusercontent.com/32169384/140426480-feba0d24-58bd-43de-91d2-1683e2c2daaf.jpg)

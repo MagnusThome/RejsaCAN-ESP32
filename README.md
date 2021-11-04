@@ -14,9 +14,10 @@ and you find example code here:
   
 Check out ideas and what I'm using the board for here: 
 - <a href=-%20PROJECTS%20->projects directory</a>   
- 
-  
-![blink](https://user-images.githubusercontent.com/32169384/139061702-0c1ab4f7-c37c-45c9-a2f5-edc9db0142e6.gif)
+
+
+![IMG_20211104_143706](https://user-images.githubusercontent.com/32169384/140323604-e5e76dfd-65f4-4a51-a0ee-95d1517ea93b.jpg)
+
 
 ![3D-bottom](https://user-images.githubusercontent.com/32169384/138956826-b0159cc9-2b37-40f7-a675-4153993f79ef.png)
 
@@ -81,7 +82,7 @@ The board has two LEDs that are controlled by pins on the ESP32. These can be us
 
 There is also a third LED that indicates that the board is powered on.
 
-![2 0-photo](https://user-images.githubusercontent.com/32169384/138956858-b6349ac5-0dbd-4614-9e06-7fb566154747.jpg)
+![blink](https://user-images.githubusercontent.com/32169384/139061702-0c1ab4f7-c37c-45c9-a2f5-edc9db0142e6.gif)
 
 ## Housing
 

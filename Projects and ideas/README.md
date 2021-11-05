@@ -83,10 +83,9 @@ https://youtu.be/GOuglqFtmOE
 
 # Infrared camera to monitor tire temperatures on track
   
-Since it runs on 12V why not make an infrared camera to measure and log your cars tire temperatures for a couple of tenners per wheel. Works with both Racechrono and Harry's Laptimer.
+Since it runs on 12V why not make an infrared camera to measure and log your cars tire temperatures for a couple of tenners per wheel. Works with both Racechrono and Harry's Laptimer. Downloadable code and lots of info here: https://github.com/MagnusThome/RejsaRubberTrac
 
 ![image](https://user-images.githubusercontent.com/32169384/140487234-bcab10ce-9524-4d62-9b15-278a38266f7f.png)
 
-Read more here: https://github.com/MagnusThome/RejsaRubberTrac
 
 

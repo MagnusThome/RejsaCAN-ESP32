@@ -28,7 +28,7 @@ Check out ideas and what I'm using the board for here:
 - I2C bus
 - BLE (Bluetooth 4.2)
 - Wifi (both as AP or client)
-- Numerous TCP/IP standards (everything from simple http, mqtt, ajax, ntp to running a full webserver on it with a user interface)
+- Networking, everything from simple http, mqtt, ajax, ntp to running a full webserver on it with a user interface
 - USB port (serial in/out)
 - Analog input, PWM or analog output
 

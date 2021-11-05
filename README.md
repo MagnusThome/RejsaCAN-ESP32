@@ -13,7 +13,12 @@ and you find example code here:
 - <a href=examples>Code examples</a>
   
 Check out ideas and what I'm using the board for here: 
-- <a href=Projects%20and%20ideas>Projects and ideas directory</a>   
+- <a href=Projects%20and%20ideas>Projects and ideas</a>   
+
+What CAN/OBD2 library should you use? Well, here are some links at least to get you started:
+  
+- <a href=What%20CAN%20library%20to%20use%3F>Links to some different CAN libraries</a>  
+  
   
 . 
 ![IMG_20211104_143706](https://user-images.githubusercontent.com/32169384/140323604-e5e76dfd-65f4-4a51-a0ee-95d1517ea93b.jpg)

@@ -13,9 +13,9 @@ and you find example code here:
 - <a href=examples>Code examples</a>
   
 Check out ideas and what I'm using the board for here: 
-- <a href=-%20PROJECTS%20->projects directory</a>   
-
-
+- <a href=Projects%20and%20ideas>Projects and ideas directory</a>   
+  
+. 
 ![IMG_20211104_143706](https://user-images.githubusercontent.com/32169384/140323604-e5e76dfd-65f4-4a51-a0ee-95d1517ea93b.jpg)
 
 

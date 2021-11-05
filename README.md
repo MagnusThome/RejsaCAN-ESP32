@@ -90,8 +90,6 @@ Check out 3D printable housings in the <a href=3dprint>the 3D-print directory</a
 
 ![small-housing(0)](https://user-images.githubusercontent.com/32169384/138956886-f83ddebf-1960-4e5f-990a-a6d5ac4cba14.jpg)
 
-![5](https://user-images.githubusercontent.com/32169384/140327529-6724499a-9104-4c2b-b292-0a9bca6ae495.jpg)
-
 ![4](https://user-images.githubusercontent.com/32169384/140327538-1fef4d27-3961-447a-bb28-ced90950dfcf.jpg)
 
 ![transparent-case-1](https://user-images.githubusercontent.com/32169384/140562825-fa751003-fabd-465a-9738-fe34dc1a9d12.jpg)

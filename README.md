@@ -74,7 +74,7 @@ Powering the whole board with 5V via the USB type C connector will also disable 
    
 ## CAN interface
 
-You can hook the board up straight to the car's OBD2 port or attach it directly to any CAN bus. You just need to connect the four wires. 12V power, ground, CAN high and low. There is of course a bus termination resitor on the board, it can be disabled if not needed. More CAN ports can be added using cheap MCP2515 boards.
+You can hook the board up straight to the car's OBD2 port or attach it directly to any CAN bus. You just need to connect the four wires. 12V power, ground, CAN high and low. There is of course a bus termination resistor on the board, it can be disabled if not needed. More CAN ports can be added using cheap MCP2515 boards.
 
 ## Three on board LEDs  
 

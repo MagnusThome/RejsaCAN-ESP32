@@ -22,14 +22,14 @@ https://www.youtube.com/watch?v=f61Pw1ZjPyw
 ![IMG_20211104_165918](https://user-images.githubusercontent.com/32169384/140426480-feba0d24-58bd-43de-91d2-1683e2c2daaf.jpg)
 
 
-## CAN log all to Serial over USB and Bluetooth
+# CAN log all to Serial over USB and Bluetooth
 
 I'm using Techstream (the software the garage uses to check up on the car) to ask for different non standard OBD2 data over the OBD2 port (steering angle, oil pressure, brake pressure...) and simultaneously log all the traffic with this RejsaCAN in the picture below, logging both the requests from Techstream and the replies from the car. Simple <a href=https://github.com/MagnusThome/RejsaCAN-ESP32/blob/main/examples/Listen%20to%20all%20CAN%20broadcasts%20(over%20Bluetooth%20and%20Serial)/getallBT.ino>Arduino code for this is in the examples directory</a>. I can either save all data over USB to my PC or save to a log file on my mobile phone over Bluetooth using for example this app https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en&gl=US
 
 ![IMG_20211028_085844](https://user-images.githubusercontent.com/32169384/139203931-2b5d8c71-bb6d-413a-8c6a-0a8f1bfe9376.jpg)
 
 
-## Using RejsaCAN as a sniffer interface with CAN software tools
+# Using RejsaCAN as a sniffer interface with CAN software tools
 
 I installed ESP32RET on the board and hooked it up to the CAN software tool SavvyCAN on my PC
 
@@ -81,7 +81,7 @@ https://youtu.be/GOuglqFtmOE
 
 ![image](https://user-images.githubusercontent.com/32169384/137488021-70c7fb58-a59d-4f41-86c1-395dd06bf2e3.png)
 
-## Infrared camera to monitor tire temperatures on track
+# Infrared camera to monitor tire temperatures on track
   
 Since it runs on 12V why not make an infrared camera to measure and log your cars tire temperatures for a couple of tenners per wheel. Works with both Racechrono and Harry's Laptimer.
 

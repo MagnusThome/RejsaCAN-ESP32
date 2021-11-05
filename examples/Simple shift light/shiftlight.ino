@@ -10,10 +10,9 @@
 uint16_t rpm;
 
 
-
 void setup() {
+  Serial.begin(115200);
   pinMode(26, OUTPUT); // THE CAN LIBRARY HAS THIS PIN FOR INTERRUPT FOR CAN1 (UNSUSED HERE) INPUT WITHOUT PULLUP, FORCE TO OUTPUT INSTEAD TO PREVENT ERRONEOUS INTERRUPTS.
-
   pinMode(BLUE_LED, OUTPUT);
   pinMode(YELLOW_LED, OUTPUT);
   digitalWrite(YELLOW_LED, LOW);
@@ -26,6 +25,7 @@ void setup() {
 
 void loop() {
   requestCar();
+  Serial.println(rpm);
 
   if( rpm > 6000 ) { digitalWrite(BLUE_LED, HIGH); }
   else             { digitalWrite(BLUE_LED, LOW);  }
@@ -63,4 +63,3 @@ void callback(CAN_FRAME *from_car) {
     rpm = (uint16_t) ((256*rpmOBDH) + rpmOBDL)/(float)4;
   }
 }
-

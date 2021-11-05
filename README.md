@@ -94,6 +94,8 @@ Check out 3D printable housings in the <a href=3dprint>the 3D-print directory</a
 
 ![4](https://user-images.githubusercontent.com/32169384/140327538-1fef4d27-3961-447a-bb28-ced90950dfcf.jpg)
 
+![transparent-case-1](https://user-images.githubusercontent.com/32169384/140562825-fa751003-fabd-465a-9738-fe34dc1a9d12.jpg)
+
 
 ## Schematics
 

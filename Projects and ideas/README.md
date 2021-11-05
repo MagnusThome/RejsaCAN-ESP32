@@ -3,9 +3,9 @@
 I'll add fun stuff here... 
 
 
-# CAN data on a screen
+# CAN data on a touch screen
 
-Just a first test of CAN info on the screen with ugly fonts ;-)  The wiring between the boards will be replaced by a super small interconnect board so the RejsaCAN is sandwich mounted behind the display board.
+Just a first test of CAN info on the screen with ugly fonts ;-)  The wiring between the boards will be replaced by a super small interconnect board so the RejsaCAN is sandwich mounted behind the display board. This display board also has an SD card reader slot that you can use for logging data.
 
 ![Touch-screen(1)](https://user-images.githubusercontent.com/32169384/138956178-591b5a11-4536-44ec-ba11-c2d607cd882b.jpg)
 

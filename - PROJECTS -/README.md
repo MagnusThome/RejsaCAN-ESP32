@@ -18,9 +18,7 @@ An example how to use the "Monitor" API in Racechrono to get a live feed of any 
 https://www.youtube.com/watch?v=f61Pw1ZjPyw
 
 ![image](https://user-images.githubusercontent.com/32169384/140480398-8423526c-197f-4e5e-b384-140b0f5cd127.png)
-
 ![IMG_20211104_165820](https://user-images.githubusercontent.com/32169384/140426471-28c3b613-0b05-4048-9e02-b0b7103bf6a1.jpg)
-
 ![IMG_20211104_165918](https://user-images.githubusercontent.com/32169384/140426480-feba0d24-58bd-43de-91d2-1683e2c2daaf.jpg)
 
 

@@ -86,7 +86,7 @@ There is also a third LED that indicates that the board is powered on.
 
 ## Housing
 
-Check out 3D printable housings in the <a href=3dprint>the 3D-print directory</a>
+Check out 3D printable housings in the <a href=3dprint>the 3D-print directory</a>. You can either have a housing where you connect using a cable or use the housing with an OBD2 connector to plug directly into the car. 
 
 ![small-housing(0)](https://user-images.githubusercontent.com/32169384/138956886-f83ddebf-1960-4e5f-990a-a6d5ac4cba14.jpg)
 
@@ -101,7 +101,7 @@ Check out 3D printable housings in the <a href=3dprint>the 3D-print directory</a
 
 ## Connecting the board
 
-I've used a widely available OBD2 splitter cable (flat cable) that has one male and two female connectors. I hook up the male connector to the car, cut off one female connector and wire the remaining pig tail cable into the RejsaCAN board and one female connector is then free for other equipment to hook up to the car.
+If not using the housing with an integrated OBD2 connector I've used a widely available OBD2 splitter cable (flat cable) that has one male and two female connectors. I hook up the male connector to the car, cut off one female connector and wire the remaining pig tail cable into the RejsaCAN board and one female connector is then free for other equipment to hook up to the car.
 
 Picture showing what wires to use but please measure your cable and don't trust all these splitter cables to be 100% identical. (the second female splitter connector is not visible in pic)
 

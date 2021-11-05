@@ -2,7 +2,7 @@
 
 Two housings done so far. One very very small and thin and one slightly bigger with integrated OBD2 plug.
 
-# Small flat
+# Minimalist small and flat
 
 ![small-housing(0)](https://user-images.githubusercontent.com/32169384/138956886-f83ddebf-1960-4e5f-990a-a6d5ac4cba14.jpg)
 

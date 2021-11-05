@@ -24,7 +24,7 @@ https://www.youtube.com/watch?v=f61Pw1ZjPyw
 
 ## CAN log all to Serial over USB and Bluetooth
 
-I'm using Techstream (the software the garage uses to check up on the car) to ask for different non standard OBD2 data over the OBD2 port (steering angle, oil pressure, brake pressure...) and simultaneously log all the traffic with this RejsaCAN in the picture below, logging both the requests from Techstream and the replies from the car. Simple Arduino code for this is in the examples directory. I can either save all data over USB to my PC or save to a log file on my mobile phone over Bluetooth using for example this app https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en&gl=US
+I'm using Techstream (the software the garage uses to check up on the car) to ask for different non standard OBD2 data over the OBD2 port (steering angle, oil pressure, brake pressure...) and simultaneously log all the traffic with this RejsaCAN in the picture below, logging both the requests from Techstream and the replies from the car. Simple <a href=https://github.com/MagnusThome/RejsaCAN-ESP32/blob/main/examples/Listen%20to%20all%20CAN%20broadcasts%20(over%20Bluetooth%20and%20Serial)/getallBT.ino>Arduino code for this is in the examples directory</a>. I can either save all data over USB to my PC or save to a log file on my mobile phone over Bluetooth using for example this app https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en&gl=US
 
 ![IMG_20211028_085844](https://user-images.githubusercontent.com/32169384/139203931-2b5d8c71-bb6d-413a-8c6a-0a8f1bfe9376.jpg)
 
@@ -80,4 +80,13 @@ https://youtu.be/GOuglqFtmOE
 ![image](https://user-images.githubusercontent.com/32169384/137488188-7943bd23-efe2-4454-a5ed-df7043051c72.png)
 
 ![image](https://user-images.githubusercontent.com/32169384/137488021-70c7fb58-a59d-4f41-86c1-395dd06bf2e3.png)
+
+## Infrared camera to monitor tire temperatures on track
+  
+Since it runs on 12V why not make an infrared camera to measure and log your cars tire temperatures for a couple of tenners per wheel. Works with both Racechrono and Harry's Laptimer.
+
+![image](https://user-images.githubusercontent.com/32169384/140487234-bcab10ce-9524-4d62-9b15-278a38266f7f.png)
+
+Read more here: https://github.com/MagnusThome/RejsaRubberTrac
+
 

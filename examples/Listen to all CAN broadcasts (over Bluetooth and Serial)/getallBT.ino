@@ -5,21 +5,6 @@
 #define YELLOW_LED        12  // GPIO12
 #define FORCE_KEEP_ON     25  // GPIO25 
 
-struct Ids {
-  uint16_t id;
-  uint8_t d0;
-  uint8_t d1;
-};
-
-
-// ---- FILTER OUT!
-// ---- DO NOT PRINT OUT THESE
-struct Ids ids[] = {
-  { 0x45A, 0x5A, 0x00 },
-  { 0x4E0, 0x24, 0x00 }
-};
-
-
 
 BluetoothSerial SerialBT;
 
@@ -49,28 +34,17 @@ void setup() {
 
 void loop() {
   unsigned long now = millis();
-
-  #define TIMERONE 100
-  static unsigned long timerone = TIMERONE;
-  if (now - timerone >= TIMERONE) {
-    timerone = now;
-    digitalWrite(YELLOW_LED, LOW);
-    digitalWrite(BLUE_LED, LOW);
-  }
-
+  delay(150);
+  digitalWrite(YELLOW_LED, LOW);
 }
 
+
 void callback(CAN_FRAME *message) {
-  for (uint8_t i=0; i<(sizeof ids/sizeof ids[0]) ; i++) {
-    if (  message->id==ids[i].id  &&  message->data.uint8[0]==ids[i].d0  &&  message->data.uint8[1]==ids[i].d1  ) {
-      digitalWrite(YELLOW_LED, HIGH);
-      return;    
-    }
-  }
-  digitalWrite(BLUE_LED, HIGH);
+  digitalWrite(YELLOW_LED, HIGH);
   printFrame(*message);
   printFrameBT(*message);
 }
+
 
 void printFrame(CAN_FRAME &message) {
 

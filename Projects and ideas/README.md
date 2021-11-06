@@ -3,6 +3,15 @@
 I'll add fun stuff here... 
 
 
+# Alarm
+
+A beeper that only takes a few milliamperes is driven directly from one of the ESP32 pins. Alarm set on over rev in this case but can of course be oil and/or water temperatures, oil pressure (if you know the PID) or anything you want.
+
+![IMG_20211106_095624](https://user-images.githubusercontent.com/32169384/140606426-05275d57-c2cf-4f5c-8924-d752cf405bbe.jpg)
+
+![IMG_20211106_095633](https://user-images.githubusercontent.com/32169384/140606429-8cfcbdd0-5ed1-4404-bb08-cef960614a3e.jpg)
+
+
 # CAN data on a touch screen
 
 Just a first test of CAN info on the screen with ugly fonts ;-)  The wiring between the boards will be replaced by a super small interconnect board so the RejsaCAN is sandwich mounted behind the display board. This display board also has an SD card reader slot that you can use for logging data.

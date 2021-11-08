@@ -46,9 +46,7 @@ void shutdowncounter(uint16_t secondsToStayOn) {
     }
   }
   else {
-    if ( countdown == true ) {
-      countdown = false;
-    }
+    countdown = false;
   }
 }
 

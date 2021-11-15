@@ -2,8 +2,8 @@
 
 Good for an initial test in the car to check that the board and the car's OBD connector work as they should
 
-- Yellow LED blinks when CAN replies are received from the car
-- Blue LED is on when the engine rpm is over 2000 rpm
+- Blue LED blinks when CAN replies are received from the car
+- Yellow LED is on when the engine rpm is over 2000 rpm
 - Engine rpms are continously printed over the Bluetooth connection
 
 */
@@ -26,8 +26,8 @@ void setup() {
   SerialBT.begin("RejsaCAN");
   pinMode(26, OUTPUT); // THE CAN LIBRARY HAS THIS PIN FOR INTERRUPT FOR CAN1 (UNSUSED HERE) INPUT WITHOUT PULLUP, FORCE TO OUTPUT INSTEAD TO PREVENT ERRONEOUS INTERRUPTS.
   
-  pinMode(BLUE_LED, OUTPUT);
   pinMode(YELLOW_LED, OUTPUT);
+  pinMode(BLUE_LED, OUTPUT);
   digitalWrite(YELLOW_LED, LOW);
   digitalWrite(BLUE_LED, LOW);
 
@@ -38,8 +38,8 @@ void setup() {
 
 void loop() {
   requestCar();
-  if( rpm > 2000 ) { digitalWrite(BLUE_LED, HIGH); }
-  else             { digitalWrite(BLUE_LED, LOW);  }
+  if( rpm > 2000 ) { digitalWrite(YELLOW_LED, HIGH); }
+  else             { digitalWrite(YELLOW_LED, LOW);  }
   SerialBT.println(rpm);
   delay(200);
 }
@@ -65,9 +65,9 @@ void requestCar(void) {
 
 
 void callback(CAN_FRAME *from_car) {
-  digitalWrite(YELLOW_LED, HIGH);
-  delay(100);
-  digitalWrite(YELLOW_LED, LOW);
+  digitalWrite(BLUE_LED, HIGH);
+  delay(20);
+  digitalWrite(BLUE_LED, LOW);
   if (from_car->data.uint8[2]==CANPID_RPM) {
     uint8_t rpmOBDH = from_car->data.uint8[3];
     uint8_t rpmOBDL = from_car->data.uint8[4];

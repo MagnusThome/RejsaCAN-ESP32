@@ -2,7 +2,7 @@
 
 This code replies as if it is a car with OBD2 
 
-Any OBD2 standard PID requested gets a reply with a fake value
+Any OBD2 standard PID requested gets a reply with a fake value. Don't run this on your cars CAN bus since it replies to everything on the bus :-D
  
 */
 

@@ -5,7 +5,9 @@ There are many CAN libraries that work with the ESP32, here are the ones I've fo
 - https://github.com/adafruit/arduino-CAN
 
 - https://github.com/collin80/esp32_can
-
+  
+- https://github.com/miwagner/ESP32-Arduino-CAN  
+  
 If you only want to access OBD2 data and not dive into the lower layer CAN bus this is also available:
 
 - https://github.com/sandeepmistry/arduino-OBD2

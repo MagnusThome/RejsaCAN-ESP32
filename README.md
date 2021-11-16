@@ -60,9 +60,9 @@ What CAN/OBD2 library should you use? Well, here are some links to get you start
 - Driver board to drive high power items
 - Step motor drivers
 - Multiple input analog or digital boards
+   
+![IMG_20211116_203136](https://user-images.githubusercontent.com/32169384/142067937-3678866e-b6aa-4547-876a-56e76185f119.jpg)
   
-  
-![140562995-4514f3ca-1906-4697-8e62-0634e4d86257](https://user-images.githubusercontent.com/32169384/142051750-b6b02eaf-4128-4f2f-aecd-5711e4593f1c.jpg)
 
 # Functionality
 

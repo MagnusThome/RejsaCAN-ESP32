@@ -60,6 +60,9 @@ What CAN/OBD2 library should you use? Well, here are some links to get you start
 - Driver board to drive high power items
 - Step motor drivers
 - Multiple input analog or digital boards
+  
+  
+![140562995-4514f3ca-1906-4697-8e62-0634e4d86257](https://user-images.githubusercontent.com/32169384/142051750-b6b02eaf-4128-4f2f-aecd-5711e4593f1c.jpg)
 
 # Functionality
 
@@ -89,15 +92,17 @@ There is also a third LED that indicates that the board is powered on.
 
 ![blink](https://user-images.githubusercontent.com/32169384/139061702-0c1ab4f7-c37c-45c9-a2f5-edc9db0142e6.gif)
 
+![IMG_20211116_202642](https://user-images.githubusercontent.com/32169384/142052421-174120e8-17d9-403a-9424-e6581dac0180.jpg)
+
 ## Housing
 
 Check out 3D printable housings in the <a href=3dprint>the 3D-print directory</a>. You can either have a housing where you connect using a cable or use the housing with an OBD2 connector to plug directly into the car. 
 
-![small-housing(0)](https://user-images.githubusercontent.com/32169384/138956886-f83ddebf-1960-4e5f-990a-a6d5ac4cba14.jpg)
-
 ![4](https://user-images.githubusercontent.com/32169384/140327538-1fef4d27-3961-447a-bb28-ced90950dfcf.jpg)
 
 ![transparent-case-1](https://user-images.githubusercontent.com/32169384/140562825-fa751003-fabd-465a-9738-fe34dc1a9d12.jpg)
+
+![small-housing(0)](https://user-images.githubusercontent.com/32169384/138956886-f83ddebf-1960-4e5f-990a-a6d5ac4cba14.jpg)
 
 
 ## Schematics

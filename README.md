@@ -94,7 +94,7 @@ There is also a third LED that indicates that the board is powered on.
 
 ## Housing
 
-Check out 3D printable housings in the <a href=3dprint>the 3D-print directory</a>. You can either have a housing where you connect using a cable or use the housing with an OBD2 connector to plug directly into the car. 
+Check out 3D printable housings in the <a href=3dprint>the 3D-print directory</a>. So far I've made one housing where you connect using a cable and another one with an integrated OBD2 connector to plug directly into the car. 
 
 ![4](https://user-images.githubusercontent.com/32169384/140327538-1fef4d27-3961-447a-bb28-ced90950dfcf.jpg)
 

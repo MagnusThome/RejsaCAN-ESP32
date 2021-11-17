@@ -1,4 +1,4 @@
-There are many CAN libraries that work with the ESP32, here are the ones I've found so far. Each library comes with their own set of code examples, my tip is to check these out to help you decide if you are thinking about an ESP32 based CAN project. 
+There are many CAN libraries that work with the ESP32, here are the ones I've found so far. If you are thinking about an ESP32 based CAN project my tip is to check out the examples included with each library, they will give you some idea on different approaches.
 
 - https://github.com/sandeepmistry/arduino-CAN
 

@@ -15,7 +15,7 @@ and you find example code here:
 Check out ideas and what I'm using the board for here: 
 - <a href=Projects%20and%20ideas>Projects and ideas</a>   
 
-What CAN/OBD2 library should you use? There are a couple of different ones to choose from, here are some links:
+What CAN/OBD2 library should one use? There are a couple of different CAN libraries to choose from, here are some links:
   
 - <a href=What%20CAN%20library%20to%20use%3F>Links to some different CAN libraries</a>  
   

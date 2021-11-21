@@ -26,6 +26,22 @@ What CAN/OBD2 library should one use? There are a couple of different CAN librar
 
 ![3D-bottom](https://user-images.githubusercontent.com/32169384/138956826-b0159cc9-2b37-40f7-a675-4153993f79ef.png)
 
+## Getting started
+
+- [Download and install](https://www.arduino.cc/en/software) Arduino IDE or cli for your platform.
+- [Download and install](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/#installation-step-by-step) ESP32 prerequisites
+- Follow the steps 1-5 on setting up the ESP32 environment.
+- If you wish to compile and flash the ESP32 [blink](https://github.com/espressif/esp-idf/tree/451ce8a7ed486c6c6045189db57106ca7107abdb/examples/get-started/blink) example, do so by going to ~/esp/esp-idf, and do
+- $ source export.sh 
+- $ cd ~/esp/esp-idf/examples/blink
+- $ idf.py build to compile
+- $ idf.py -p (PORT) flash
+- If you have a v2.1 board, change #define BLINK_GPIO CONFIG_BLINK_GPIO to: #define BLINK_GPIO 13
+- recompile and reflash to get the blue LED blinking
+- To get going with the Arduino environment, clone [esp32_can](https://github.com/collin80/esp32_can) and [can_common](https://github.com/collin80/can_common) to your ~/Arduino/libraries directory.
+- copy obd2.h to ~/Arduino/libraries/obd2/ 
+- Install [ESP32 environment for Arduino](https://dronebotworkshop.com/esp32-intro/)
+- Choose "ESP32 Dev Module" as your board, build and flash!
 
 ## ESP32 interfaces
 

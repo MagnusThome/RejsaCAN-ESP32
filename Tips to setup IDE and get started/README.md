@@ -49,7 +49,7 @@ Go to Tools > Manage Libraries...
   
 When you have decided what CAN library/libraries you want to use, search for and install these from here. But since it is often a bit tricky to search for CAN libraries since the word "can" is present in many many other libraries it is often easier to go directly to github and download the library you are after, unzip and place the contents in the Arduino library directory (which normally is found in the same directory as where you place your projects).
 
-Some of the example code on here needs these two libraries https://github.com/collin80/esp32_can and https://github.com/collin80/can_common (as stated within the example code ;-)  
+Most of the code examples on here needs these two libraries https://github.com/collin80/esp32_can and https://github.com/collin80/can_common (as stated within the example code ;-)  
   
 <img src=https://user-images.githubusercontent.com/32169384/142828027-13d392e6-ed5b-4f86-88ff-91c73b121386.png width=380>
 

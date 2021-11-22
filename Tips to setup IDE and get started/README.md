@@ -20,7 +20,7 @@ I'm sure there are more libraries out there. If you find something that has some
 
 Download and install the Arduino IDE development editor https://www.arduino.cc/en/software
   
-Go to File > Preferences  
+Start the IDE and go to File > Preferences  
   
 <img src=https://user-images.githubusercontent.com/32169384/142822314-5def32dc-cf87-49fe-a0b1-bcffd4d74009.png width=160>
 

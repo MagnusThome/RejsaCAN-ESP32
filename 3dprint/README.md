@@ -34,6 +34,8 @@ Housing with an OBD2 connector so you can plug it in to the car directly.
 
 ![142067937-3678866e-b6aa-4547-876a-56e76185f119](https://user-images.githubusercontent.com/32169384/142175879-03e20653-0231-47e1-94f6-b4317e00aabb.jpg)
 
+<img src=https://user-images.githubusercontent.com/32169384/143077864-54e38de2-3b4a-4f49-bef5-e98d03e61bf6.jpg>
+
 ![transparent-case-1](https://user-images.githubusercontent.com/32169384/140562989-ef19db84-efe9-4cef-b11b-e821bd927e71.jpg)
 
 ![transparent-case-2](https://user-images.githubusercontent.com/32169384/140562995-4514f3ca-1906-4697-8e62-0634e4d86257.jpg)

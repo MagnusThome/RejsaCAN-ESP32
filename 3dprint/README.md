@@ -16,8 +16,8 @@ Three housings done so far:
 - I've also made a version with a slot for a built in SD card reader. Good for logging locally in the plug instead of over Bluetooth/Wifi/USB. This one is identical in size.
 <br clear=all>
 <hr>
-  
-<img src=picture coming...  width=35% align=right>  
+
+<img src=https://user-images.githubusercontent.com/32169384/143077864-54e38de2-3b4a-4f49-bef5-e98d03e61bf6.jpg  width=35% align=right>  
 
 - "Vertical" with integrated OBD2 connector. Flatter, doesn't stick out as long from the jack as the "Horizontal" version but is wider so will not fit in all cars.  
   

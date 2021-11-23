@@ -26,7 +26,7 @@ Three housings done so far:
 <hr>
 
 
-# OBD2 connector
+# With an OBD2 connector
 
 Housing with an OBD2 connector so you can plug it in to the car directly.  
 

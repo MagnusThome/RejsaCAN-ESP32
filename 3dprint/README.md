@@ -1,6 +1,23 @@
 # Housings
 
-Two housings done so far. One very very small and thin and one slightly bigger with integrated OBD2 plug.
+Three housings done so far:
+
+<img src=https://user-images.githubusercontent.com/32169384/138956907-5b824772-4a7d-4e6e-83ae-9dbffd630f16.jpg width=35% align=right>
+- Very thin very small and minimalist with wire going directly into the casing
+<br clear=all>
+  
+<img src=https://user-images.githubusercontent.com/32169384/142175879-03e20653-0231-47e1-94f6-b4317e00aabb.jpg width=35% align=right>
+- "Horisontal" with integrated OBD2 connector. This is especially for some cars where a wider casing will prevent you from plugging it into the cars jack if the jack is slightly recessed.  
+  
+I've also made a version with a slot for a built in SD card reader. Good for logging locally in the plug instead of over Bluetooth/Wifi/USB. This one is identical in size.
+<br clear=all>
+  
+<img src=picture coming...  width=35% align=right>
+- "Vertical" with integrated OBD2 connector. Flatter, doesn't stick out as long from the jack as the "Horisontal" version but is wider so will not fit in all cars.  
+  
+I've also made a version of this one with a slot for a built in SD card reader. Good for logging locally in the plug instead of over Bluetooth/Wifi/USB. This one is slightly thicker.
+<br clear=all>
+
 
 # OBD2 connector
 
@@ -24,3 +41,4 @@ Housing with an OBD2 connector so you can plug it in to the car directly.
 
 ![small-housing(2)](https://user-images.githubusercontent.com/32169384/138956945-97b0403a-e5a8-471f-bc6c-01ba239a281d.jpg)
 
+![138956907-5b824772-4a7d-4e6e-83ae-9dbffd630f16](https://user-images.githubusercontent.com/32169384/143060877-c0aed2a2-6649-4952-a975-7c262e33fbed.jpg)

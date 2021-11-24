@@ -17,7 +17,7 @@ Check out ideas and what I'm using the board for here:
 
 What CAN/OBD2 library should one use? There are a couple of different CAN libraries to choose from, here are some links:
   
-- <a href=What%20CAN%20library%20to%20use%3F>Links to some different CAN libraries</a>  
+- <a href=Tips%20to%20setup%20IDE%20and%20get%20started>Links to some different CAN libraries and tips to get started</a>  
   
   
 . 

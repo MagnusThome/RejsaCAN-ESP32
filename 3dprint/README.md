@@ -40,6 +40,8 @@ Housing with an OBD2 connector so you can plug it in to the car directly.
 
 ![transparent-case-2](https://user-images.githubusercontent.com/32169384/140562995-4514f3ca-1906-4697-8e62-0634e4d86257.jpg)
   
+ Add a beeper?  
+ 
 ![IMG_20211121_112251](https://user-images.githubusercontent.com/32169384/144240512-132497fa-c2ef-4080-86c8-e45fe76d6463.jpg)
 
   

@@ -9,8 +9,6 @@
 #define SENSE_V_DIG     14    // INPUT    USE "INPUT_PULLUP". HIGH = CAR ENGINE IS RUNNING AND IS CHARGING CAR BATTERY
 #define SENSE_V_ANA     32    // INPUT    UNCALIBRATED ANALOG REPRESENTATION OF CAR BATTERY VOLTAGE
 
-#define WAKE_BY_CAN     4     // GOES HIGH WHEN THERE IS CAN TRAFFIC ON THE CAN BUS. CAN BE USED TO WAKE FROM SLEEP
-
 #define SDA             21    // GENERAL GPIO OR SDA
 #define SCL             22    // GENERAL GPIO OR ...
 #define SPI_MOSI        23    // GENERAL GPIO OR ...
@@ -20,6 +18,10 @@
 
 #define GPIO26          26    // GENERAL GPIO
 #define GPIO33          33    // GENERAL GPIO
+
+#define CANTX           17
+#define CANRX           16
+#define WAKE_BY_CAN     4     // GOES HIGH WHEN THERE IS CAN TRAFFIC ON THE CAN BUS. CAN BE USED TO WAKE FROM SLEEP
 
 
 void setup() {
@@ -47,9 +49,7 @@ void loop() {
 }
 
 
-
 void shutdowncounter(void) {
-
   const uint8_t secondsToStayOn = 5;
   static bool countdown = false;
   static unsigned long timerstart;

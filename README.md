@@ -79,7 +79,14 @@ Powering the whole board with 5V via the USB type C connector will also disable 
    
 <img src=pics/matrix%20power%20scenarios.gif>
    
-   
+## Power consumption  
+  
+At 14V the complete board draws *on average* roughly:   
+- Bluetooth turned on but no connections = 16mA (+ 4mA for power LED)
+- Wifi turned on as AP with local web server but no connections = 46mA (+ 4mA for power LED)
+- No wifi or Bluetooth = 14mA (+ 4mA for power LED)
+- Sleep = 3mA (+ 4mA for power LED). Note that the CAN transcevier is fully active and the DC-DC buck converter probably has some idle draw also.
+    
 ## CAN interface
 
 You can hook the board up straight to the car's OBD2 port or attach it directly to any CAN bus. You just need to connect the four wires. 12V power, ground, CAN high and low. There is of course a bus termination resistor on the board, it can be disabled if not needed. More CAN ports can be added using cheap MCP2515 boards.

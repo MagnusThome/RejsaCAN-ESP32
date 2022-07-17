@@ -120,7 +120,7 @@ Check out 3D printable housings in the <a href=3dprint>the 3D-print directory</a
 
 ## Schematics
 
-<img src=Schematics/Schematic_RejsaCAN%20v2.2.png>
+<img src=Schematics/Schematic_RejsaCAN%20v3.1.png>
 
 ## Connecting the board
 

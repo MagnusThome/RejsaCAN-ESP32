@@ -103,7 +103,11 @@ The board has two LEDs that are controlled by pins on the ESP32. These can be us
 There is also a third LED that indicates that the board is powered on.
 
 ![blink](https://user-images.githubusercontent.com/32169384/139061702-0c1ab4f7-c37c-45c9-a2f5-edc9db0142e6.gif)
+  
+## Schematics
 
+<a href=https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/Schematics><img src=Schematics/Schematic_RejsaCAN%20v3.1.png></a>
+  
 ## Housing
 
 Check out 3D printable housings in the <a href=3dprint>the 3D-print directory</a>. So far I've made one housing where you connect using a cable and another one with an integrated OBD2 connector to plug directly into the car. 
@@ -113,12 +117,8 @@ Check out 3D printable housings in the <a href=3dprint>the 3D-print directory</a
 ![transparent-case-1](https://user-images.githubusercontent.com/32169384/140562825-fa751003-fabd-465a-9738-fe34dc1a9d12.jpg)
 
 ![small-housing(0)](https://user-images.githubusercontent.com/32169384/138956886-f83ddebf-1960-4e5f-990a-a6d5ac4cba14.jpg)
-
-
-## Schematics
-
-<a href=https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/Schematics><img src=Schematics/Schematic_RejsaCAN%20v3.1.png></a>
-
+  
+  
 ## Connecting the board
 
 ![IMG_20211116_202642](https://user-images.githubusercontent.com/32169384/142052421-174120e8-17d9-403a-9424-e6581dac0180.jpg)

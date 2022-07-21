@@ -129,11 +129,11 @@ Check out 3D printable housings in the <a href=3dprint>the 3D-print directory</a
 When not using the housing with an integrated OBD2 connector or the screw terminals as seen in the picture above I've used a widely available OBD2 splitter cable (flat cable) that has one male and two female connectors. I hook up the male connector to the car, cut off one female connector and wire the remaining pig tail cable into the RejsaCAN board and one female connector is then free for other equipment to hook up to the car.
 
 Picture showing what wires to use but please measure your cable and don't trust all these splitter cables to be 100% identical. (the second female splitter connector is not visible in pic)
-
-<img src=pics/OBD2%20splitter%20pinout.jpg>
-
+    
+![OBD2 splitter pinout](https://user-images.githubusercontent.com/32169384/180321794-e2e8f9a3-37a3-4594-a713-4c3d7f042926.jpg)
+  
 ![small-housing(3)](https://user-images.githubusercontent.com/32169384/138956928-8b44a92c-3336-4f66-8bfb-3b2ae9432360.jpg)
-
+  
 ![small-housing(2)](https://user-images.githubusercontent.com/32169384/138956945-97b0403a-e5a8-471f-bc6c-01ba239a281d.jpg)
 
 

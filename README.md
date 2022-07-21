@@ -14,6 +14,9 @@ and you find example code here:
   
 Check out ideas and what I'm using the board for here: 
 - <a href=Projects%20and%20ideas>Projects and ideas</a>   
+  
+Complete schematics of all board versions:
+- <a href=https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/Schematics>Schematics</a>
 
 What CAN/OBD2 library should one use? There are a couple of different CAN libraries to choose from, here are some links:
   

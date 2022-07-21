@@ -26,18 +26,11 @@ What CAN/OBD2 library should one use? There are a couple of different CAN librar
 #  
 # Blue ESP32 version  
 
-![IMG_20211104_143706](https://user-images.githubusercontent.com/32169384/140323604-e5e76dfd-65f4-4a51-a0ee-95d1517ea93b.jpg)
-
-
-![3D-bottom](https://user-images.githubusercontent.com/32169384/138956826-b0159cc9-2b37-40f7-a675-4153993f79ef.png)
+<img src=https://user-images.githubusercontent.com/32169384/140323604-e5e76dfd-65f4-4a51-a0ee-95d1517ea93b.jpg height=490px> <img src=https://user-images.githubusercontent.com/32169384/138956826-b0159cc9-2b37-40f7-a675-4153993f79ef.png height=490px>
   
 # White ESP32-S3 version  
 
-![ESP32-S3 first batch (1)](https://user-images.githubusercontent.com/32169384/174881528-bc4ec827-6753-409f-811f-b7b86ddcb88f.jpg)
-  
-![ESP32-S3 first batch (2)](https://user-images.githubusercontent.com/32169384/174881590-e73278a0-fa16-41e3-9b1a-aa4d34dffd20.jpg)
-  
-  
+<img src=https://user-images.githubusercontent.com/32169384/174881590-e73278a0-fa16-41e3-9b1a-aa4d34dffd20.jpg height=550px> <img src=https://user-images.githubusercontent.com/32169384/174881528-bc4ec827-6753-409f-811f-b7b86ddcb88f.jpg height=550px> 
 
 ## ESP32 interfaces
 

@@ -15,6 +15,13 @@ If you only want to access OBD2 data and not dive into the lower layer CAN bus t
 - https://github.com/sandeepmistry/arduino-OBD2
 
 I'm sure there are more libraries out there. If you find something that has some special advantage feel free to email me so I can add it here
+  
+# Install USB drivers (if necessary)
+
+The USB chip on the 2.x boards is a CP2104 from Silicon Labs
+
+You can find drivers for your PC here under downloads https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
+
 
 # Setting up the Arduino IDE for ESP32 on Windows
 

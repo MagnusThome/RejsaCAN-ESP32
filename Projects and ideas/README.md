@@ -24,8 +24,9 @@ Just a first test of CAN info on the screen with ugly fonts ;-)  The wiring betw
   
 An example how to use the "Monitor" API in Racechrono to get a live feed of any of all data Racechrono holds using a RejsaCAN board running on car's 12V (or any board based on an ESP32 or NRF52 MCU run on 5V) to get a live feed of data from Racechrono over BLE/Bluetooth. This example code is made for a commonly available ILI9341 based display simply connected via SPI. More info and code here https://github.com/MagnusThome/Racechrono-LIVE-telemetry-data-export
 
-<a href=https://www.youtube.com/watch?v=f61Pw1ZjPyw>![image](https://user-images.githubusercontent.com/32169384/140480398-8423526c-197f-4e5e-b384-140b0f5cd127.png)</a>
-
+www.youtube.com/watch?v=f61Pw1ZjPyw  
+<img src=https://user-images.githubusercontent.com/32169384/140480398-8423526c-197f-4e5e-b384-140b0f5cd127.png>  
+  
 # Collect car (or other) data and transmit to Racechrono for logging 
 
 https://github.com/timurrrr/arduino-RaceChrono

@@ -18,19 +18,15 @@ Just a first test of CAN info on the screen with ugly fonts ;-)  The wiring betw
 
 ![Touch-screen(1)](https://user-images.githubusercontent.com/32169384/138956178-591b5a11-4536-44ec-ba11-c2d607cd882b.jpg)
 
-![Touch-screen(0)](https://user-images.githubusercontent.com/32169384/138956181-5c421461-7e94-4a66-8d21-c0f54506565e.png)
+<img width=240 src=https://user-images.githubusercontent.com/32169384/138956181-5c421461-7e94-4a66-8d21-c0f54506565e.png><img width=350 src=https://user-images.githubusercontent.com/32169384/140426480-feba0d24-58bd-43de-91d2-1683e2c2daaf.jpg><img width=400 src=https://user-images.githubusercontent.com/32169384/140426471-28c3b613-0b05-4048-9e02-b0b7103bf6a1.jpg>
 
 # Collect telemetry data from Racechrono live and export to display, internet or whatever
   
 An example how to use the "Monitor" API in Racechrono to get a live feed of any of all data Racechrono holds using a RejsaCAN board running on car's 12V (or any board based on an ESP32 or NRF52 MCU run on 5V) to get a live feed of data from Racechrono over BLE/Bluetooth. This example code is made for a commonly available ILI9341 based display simply connected via SPI. More info and code here https://github.com/MagnusThome/Racechrono-LIVE-telemetry-data-export
 
-https://www.youtube.com/watch?v=f61Pw1ZjPyw
+<a href=https://www.youtube.com/watch?v=f61Pw1ZjPyw>![image](https://user-images.githubusercontent.com/32169384/140480398-8423526c-197f-4e5e-b384-140b0f5cd127.png)</a>
 
-![image](https://user-images.githubusercontent.com/32169384/140480398-8423526c-197f-4e5e-b384-140b0f5cd127.png)
-![IMG_20211104_165820](https://user-images.githubusercontent.com/32169384/140426471-28c3b613-0b05-4048-9e02-b0b7103bf6a1.jpg)
-![IMG_20211104_165918](https://user-images.githubusercontent.com/32169384/140426480-feba0d24-58bd-43de-91d2-1683e2c2daaf.jpg)
-
-# Collect car (or other) data and transmit it to Racechrono for logging 
+# Collect car (or other) data and transmit to Racechrono for logging 
 
 https://github.com/timurrrr/arduino-RaceChrono
 

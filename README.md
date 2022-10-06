@@ -1,6 +1,6 @@
 # RejsaCAN
 
-RejsaCAN is a 3x5 centimeter small ESP32 based board aimed at car use that I put together for my own use in my assorted crazy car projects. The board has an on board CAN interface and can be powered directly from the car (5-15V). It also includes the option to auto shutdown so not to drain the car battery.
+RejsaCAN is a 3x5 centimeter small ESP32-S3 based board aimed at car use that I put together for my own use in my assorted crazy car projects. The board has an on board CAN interface and can be powered directly from the car (5-15V). It also includes the option to auto shutdown so not to drain the car battery.
 
 There is no bespoke code for the board apart from pin definitions, it's just a piece of universal hardware, but by using easy to use open source Arduino libraries it can be made to interface not only to various CAN buses, Network/Wifi and Bluetooth but to numerous sensors and other peripherals using the ESP32's built in interfaces.
 
@@ -22,17 +22,17 @@ What CAN/OBD2 library should one use? There are a couple of different CAN librar
   
 - <a href=Tips%20to%20setup%20IDE%20and%20get%20started>Links to some different CAN libraries and tips to get started</a>  
   
-  
-#  
-# Blue ESP32 version  
+## Pinout
 
-<img src=https://user-images.githubusercontent.com/32169384/140323604-e5e76dfd-65f4-4a51-a0ee-95d1517ea93b.jpg height=400px> <img src=https://user-images.githubusercontent.com/32169384/138956826-b0159cc9-2b37-40f7-a675-4153993f79ef.png height=400px>
-  
-# White ESP32-S3 version  
+![Screenshot 2022-10-06 202107](https://user-images.githubusercontent.com/32169384/194390201-8d49c772-1818-42f0-817a-169a20cf7789.png)
 
-<img src=https://user-images.githubusercontent.com/32169384/174881590-e73278a0-fa16-41e3-9b1a-aa4d34dffd20.jpg height=450px> <img src=https://user-images.githubusercontent.com/32169384/174881528-bc4ec827-6753-409f-811f-b7b86ddcb88f.jpg height=450px> 
+![IMG_20221006_202701](https://user-images.githubusercontent.com/32169384/194390915-c3005651-fbe4-4dc2-b8cc-74895e11ac61.jpg)
 
-## ESP32 interfaces
+## Schematics
+
+<a href=https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/Schematics><img src=Schematics/Schematic_RejsaCAN%20v3.2.png></a>
+
+## ESP32-S3
 
 - SPI bus
 - I2C bus
@@ -68,6 +68,7 @@ What CAN/OBD2 library should one use? There are a couple of different CAN librar
    
 ![IMG_20211116_203136](https://user-images.githubusercontent.com/32169384/142067937-3678866e-b6aa-4547-876a-56e76185f119.jpg)
   
+![IMG_20211116_202642](https://user-images.githubusercontent.com/32169384/142052421-174120e8-17d9-403a-9424-e6581dac0180.jpg)
 
 # Functionality
 
@@ -101,12 +102,6 @@ You can hook the board up straight to the car's OBD2 port or attach it directly 
 The board has two LEDs that are controlled by pins on the ESP32. These can be used for anything, like indicating Wifi/BLE being connected, errors or whatnot. 
 
 There is also a third LED that indicates that the board is powered on.
-
-![blink](https://user-images.githubusercontent.com/32169384/139061702-0c1ab4f7-c37c-45c9-a2f5-edc9db0142e6.gif)
-  
-## Schematics
-
-<a href=https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/Schematics><img src=Schematics/Schematic_RejsaCAN%20v3.1.png></a>
   
 ## Housing
 
@@ -120,8 +115,6 @@ Check out 3D printable housings in the <a href=3dprint>the 3D-print directory</a
   
   
 ## Connecting the board
-
-![IMG_20211116_202642](https://user-images.githubusercontent.com/32169384/142052421-174120e8-17d9-403a-9424-e6581dac0180.jpg)
 
 When not using the housing with an integrated OBD2 connector or the screw terminals as seen in the picture above I've used a widely available OBD2 splitter cable (flat cable) that has one male and two female connectors. I hook up the male connector to the car, cut off one female connector and wire the remaining pig tail cable into the RejsaCAN board and one female connector is then free for other equipment to hook up to the car.
 

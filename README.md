@@ -92,14 +92,68 @@ When the engine is running and charging the car battery the incoming voltage use
 - The CAN data input (CAN_RX GPIO13) can also be used to trigger waking up the board from sleep as soon as CAN traffic is detected.
 
    
-Either one can just let the board turn on and off with the auto shutdown hardware circuitry straight out of the box or you can run it in combination with software. For example, when the car voltage rises and the board boots you can pull FORCE_ON high to make sure the board keeps running even if there is a drop of voltage, for example due to red light start/stop functionality in the car or modern cars turning down battery charging even when driving. Then you just monitor either the threshold with SENSE_V_DIGI or set your own thresholds using SENSE_V_ANA and theh add your own timer delays or whatever. And of course, you can use CAN to check if the car is stopped in a multitude of ways, rpm, speed, gear...
+Either one can just let the board turn on and off with the auto shutdown hardware circuitry straight out of the box or you can run it in combination with software. For example, when the car voltage rises and the board boots you can pull FORCE_ON high to make sure the board keeps running even if there is a drop of voltage, for example due to red light start/stop functionality in the car or modern cars turning down battery charging even when driving. Then you just monitor either the threshold with SENSE_V_DIG or set your own thresholds using SENSE_V_ANA and theh add your own timer delays or whatever. And of course, you can use CAN to check if the car is stopped in a multitude of ways, rpm, speed, gear...
 
 
 
    
 ![matrix power scenarios](https://user-images.githubusercontent.com/32169384/180321585-c3b46872-c4b4-4583-bcea-3c7e8c0705bd.gif)
 
-   
+
+## "Good to haves"
+
+### Three on board LEDs  
+
+- Green power LED that shows if the board is turned on or not. If using the auto shutdown the green LED (and the board) will be turned on and off depending on the car voltage being over or under the auto start/shutdown threshold.
+
+- Blue LED to use for anything you fancy (BLUE_LED GPIO10)
+- Yellow LED to use for anyhting (YELLOW_LED GPIO11)
+
+### Extra UART RX/TX
+
+The ESP32-S3 has a built in USB port for uploading firmware, OTG support(!) and general communicating. But on the boards rear there are breakout pads for a second UART (TXD0 and RXD0) so you can use both this as a serial port and the board's USB port for other tasks like JTAG or OTG, acting as a peripheral keyboard, mouse, wireless storage and so on.
+
+### 3V3 HIGH DRIVER
+
+The GPIO pins on the ESP32-S3 can in addition to general digital circuitry also drive 10-20mA loads like LEDs and other smaller loads. But on the RejsaCAN board there is an added more powerful driver circuit that can drive slightly larger loads of a few hundred mA at 3,3V. This can be used for different things like power to external sensors or a small display that you want to be able to shutdown fully to minimize power consumption while in sleep mode for example. This 3V3 SWITCHED output is controlled by HI_DRIVER GPIO21. The ESP32-S can keep this on or off when in sleep mode.
+
+There is also a 3,3V power output pad in the row of pads that is turned on whenever the board is running. Keep in mind this is not a 3V3 _input_ to drive the board, it is only an output to drive I2C, SPI and other sensors.
+
+### SD card reader
+
+Optionally one can mount an SD micro card reader on the board rear side. It is connected to SPI and select SD_CARD (GPIO45)
+
+### Other general IO pins
+
+All the GPIOs found on the row of connector pads are general purpose. They can be PWM, analog, digital in/out whatever, special protocols driving or reading most things you can think of. But for ease of use for me with occasional lousy memory I have marked some default uses:
+
+- I2C SDA  (GPIO1)
+- I2C SCL  (GPIO2)
+- GND
+- 3V3
+
+- SPI MISO / MTDI  (GPIO41)
+- SPI CLK  / MTCK  (GPIO39)
+- SPI MOSI / MTDO  (GPIO41)
+
+- GPIO47
+- GPIO48
+- GPIO12
+
+- And high driver output only GPIO21
+
+### CAN bus
+
+As mentioned earlier the CAN_RX GPIO13 can wake the ESP32-S3 from sleep whenever any traffic is seen on the CAN bus.
+
+The rise time of the CAN transceiver chip can be changed pulling CAN_RS (GPIO38) high or low. Default is keeping the pin unmodified in high impedance state for an optimal not-to-fast rise time setting. See specs for the transceiver chip SN65HVD230DR.
+
+### JTAG
+
+You can either run JTAG over the USB port or optionally keeping the USB port free by connecting your JTAG hardware to MTDI, MTDO, MTCK and MTMS on the board. Note that MTMS is only avalable on the boards rear side. The other are available in the row of connecting pads. Incidentally the MTDI, MTDO and MTCK are the same as the SPI defult pins.
+
+To enable JTAG mode you need to pull the JTAG_ENABLE pad, found on the rear of the board, high or low at boot.
+
 ## Power consumption  
   
 At 14V the complete board draws *on average* roughly:   
@@ -112,12 +166,6 @@ At 14V the complete board draws *on average* roughly:
 
 You can hook the board up straight to the car's OBD2 port or attach it directly to any CAN bus. You just need to connect the four wires. 12V power, ground, CAN high and low. There is of course a bus termination resistor on the board, it can be disabled if not needed by cutting a pcb trace and optionally mounting a pin header and jumper. 
 
-## Three on board LEDs  
-
-The board has two LEDs that are controlled by pins on the ESP32. These can be used for anything, like indicating Wifi/BLE being connected, errors or whatnot. 
-
-There is also a third LED that indicates that the board is powered on.
-  
 ## Housing
 
 Check out 3D printable housings in the <a href=3dprint>the 3D-print directory</a>. So far I've made one housing where you connect using a cable and another one with an integrated OBD2 connector to plug directly into the car. 

@@ -41,7 +41,7 @@ The ESP3232-S3 is a very nice and capable chip that supports a crazy vast range 
 - BLE (Bluetooth 5)
 - Wifi (both as AP or client)
 - Networking, everything from simple http, mqtt, ajax, ntp to running a full webserver on it with a user interface
-- USB port (serial in/out)
+- USB port (serial in/out and also OTG as virtual keyboard, wireless storage...)
 - Analog input, PWM or analog output
 
 ## Examples

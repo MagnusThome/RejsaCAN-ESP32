@@ -140,9 +140,9 @@ All the GPIOs found on the row of connector pads are general purpose. They can b
 - SPI CLK  / MTCK  (GPIO39)
 - SPI MOSI / MTDO  (GPIO41)
 
-- GPIO47
-- GPIO48
 - GPIO12
+- GPIO48
+- GPIO47
 
 - And high driver output only GPIO21
 

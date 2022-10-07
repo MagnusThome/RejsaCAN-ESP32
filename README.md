@@ -150,7 +150,9 @@ All the GPIOs found on the row of connector pads are general purpose. They can b
 
 As mentioned earlier the CAN_RX (GPIO13) can wake the ESP32-S3 from sleep whenever any traffic is seen on the CAN bus.
 
-The rise time of the CAN transceiver chip can be changed pulling CAN_RS (GPIO38) high or low. Default is keeping the pin unmodified in high impedance state for an optimal not-to-fast rise time setting. See specs for the transceiver chip SN65HVD230DR.
+To minimize power draw when not using the CAN bus, for example not listening to the bus to detect traffic to wake the ESP32 from sleep mode, the CAN transceiver can be put in standby mode by pulling CAN_RS (GPIO38) high. The ESP32-S3 can keep this pin high even when in sleep mode reducing the complete boards power draw to an absolute minimum.
+
+The rise time of the CAN transceiver chip can be changed pulling CAN_RS (GPIO38) low. Default is keeping the pin unmodified in high impedance state for an optimal not-to-fast rise time setting. See specs for the transceiver chip SN65HVD230DR.
 
 ### JTAG
 

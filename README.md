@@ -167,6 +167,7 @@ At 14V the complete board draws *on average* roughly:
 - Wifi turned on as AP with local web server but no connections = 46mA (+ 4mA for power LED)
 - No wifi or Bluetooth = 14mA (+ 4mA for power LED)
 - Sleep = 3mA (+ 4mA for power LED). Note that the CAN transceiver is fully active and the DC-DC buck converter probably has some idle draw also.
+- Sleep and CAN transceiver put in standby = hmmm, must test this, a fraction of a mA is my guess.
    
 ## Housing
 

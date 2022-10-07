@@ -59,7 +59,7 @@ The ESP3232-S3 is a very nice and capable chip that supports a crazy vast range 
 
 ## Ideas for peripherals
 
-- IR camera sensor arrays (MLX90xxx or AMG8833) to log tire, brake, drivetrain temperatures over BLE to Racechrono or CAN based loggers (like my project RejsaRubberTrac)
+- IR camera sensor arrays (MLX90xxx or AMG8833) to log tire, brake, drivetrain temperatures over BLE to Racechrono or CAN based loggers (like my project RejsaRubberTrac https://github.com/MagnusThome/RejsaRubberTrac)
 - Laser based TOF distance sensor to log suspension travel (I did this too with RejsaRubberTrac)
 - SPI or I2C based color displays to show CAN bus data like IC intake or oil temps or alarms
 - SPI or I2C based color displays to show live telemetric data fetched over BLE from Racechrono

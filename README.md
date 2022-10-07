@@ -68,8 +68,11 @@ The ESP3232-S3 is a very nice and capable chip that supports a crazy vast range 
 - Step motor drivers
 - Multiple input analog or digital boards
    
+## One of the 3D printed housings with OBD2 connector I've made
 ![IMG_20211116_203136](https://user-images.githubusercontent.com/32169384/142067937-3678866e-b6aa-4547-876a-56e76185f119.jpg)
   
+  
+## Or just the board and screw terminals
 ![IMG_20211116_202642](https://user-images.githubusercontent.com/32169384/142052421-174120e8-17d9-403a-9424-e6581dac0180.jpg)
 
 # Functionality

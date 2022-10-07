@@ -32,11 +32,13 @@ What CAN/OBD2 library should one use? There are a couple of different CAN librar
 
 <a href=https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/Schematics><img src=Schematics/Schematic_RejsaCAN%20v3.2.png></a>
 
-## ESP32-S3
+## The board is based around an ESP32-S3 chip
+
+The ESP3232-S3 is a very nice and capable chip that supports a crazy vast range of communication standards and hardware auxiliaries making it a very versatile "hub" for shuffling data between different systems.  
 
 - SPI bus
 - I2C bus
-- BLE (Bluetooth 4.2)
+- BLE (Bluetooth 5)
 - Wifi (both as AP or client)
 - Networking, everything from simple http, mqtt, ajax, ntp to running a full webserver on it with a user interface
 - USB port (serial in/out)
@@ -57,11 +59,11 @@ What CAN/OBD2 library should one use? There are a couple of different CAN librar
 
 ## Ideas for peripherals
 
-- A second CAN port (MCP2515 board)
 - IR camera sensor arrays (MLX90xxx or AMG8833) to log tire, brake, drivetrain temperatures over BLE to Racechrono or CAN based loggers (like my project RejsaRubberTrac)
 - Laser based TOF distance sensor to log suspension travel (I did this too with RejsaRubberTrac) 
 - SPI or I2C based color displays to show CAN bus data like IC intake or oil temps or alarms
 - SPI or I2C based color displays to show live telemetric data fetched over BLE from Racechrono
+- A second CAN port
 - Driver board to drive high power items
 - Step motor drivers
 - Multiple input analog or digital boards
@@ -72,15 +74,25 @@ What CAN/OBD2 library should one use? There are a couple of different CAN librar
 
 # Functionality
 
+The idea was to make an as small as possible CAN + ESP32 board with as many cool and useful "good to have" functions as possible included.
+
 ## Auto shutdown
 
-When the engine is running and charging the car battery the incoming voltage used to power the board is a little bit higher than when the engine is stopped. This can be used to automate board shutdown so not to drain the car battery.
+When the engine is running and charging the car battery the incoming voltage used to power the board is a little bit higher than when the engine is stopped. This can be used to automate board shutdown so not to drain the car battery. As default the on board DC-DC power circuit will shutdown the whole board when the power voltage is below the "engine is running" threshold and boot up the board when it is above. But you can run the board in a number of other ways too, for example using ESP32 sleep mode, waking it and putting it to sleep depending on CAN traffic, voltage level from the car, delays and so on. 
 
-As default the on board DC-DC power circuit will shutdown the whole board when the power voltage is below the "engine is running" threshold and boot up the board when it is above. This can be disabled by a small modification (a trace cut) on the board so it always runs regardless of voltage between 5V and 15V.
+- An output (FORCE_ON GPIO17) can be pulled high to keep the board running even if the car voltage drops below the threshold (instead of disabling the auto shutdown fully on the pcb). The ESP32 can keep this pin high even during sleep.
 
-In addition to the above, once the board is up and running you can programmatically force it to keep running even if the voltage from the car drops below the threshold voltage if the engine is stopped. Keeping the board running regardless of the threshold is done by pulling a pin high forcing the DC DC converter to stay running. You can also monitor one input pin that will go low when the power voltage drops below the set threshold, to for example starting a timer to keep the board running during a pit stop or a red light, even if the car engine temporarily shuts down. 
+- A digital input (SENSE_V_DIG GPIO08) monitors if the car voltage is above or below the "engine running" threshold. This can both be used to trigger waking the board from sleep or just as a simple check if the engine is charging the car battery or not.  
 
-Powering the whole board with 5V via the USB type C connector will also disable the on board DC-DC circuit's auto shutdown.
+- The voltage from the car can be monitored using analog input (SENSE_V_ANA GPIO9) to check not only charging level but also battery discharge level when parked, health of charging, health of battery, detect large loads being swithced on or off in the car and so on.
+
+- The CAN data input (CAN_RX GPIO13) can also be used to trigger waking up the board from sleep as soon as CAN traffic is detected.
+
+   
+Either one can just let the board turn on and off with the auto shutdown hardware circuitry straight out of the box or you can run it in combination with software. For example, when the car voltage rises and the board boots you can pull FORCE_ON high to make sure the board keeps running even if there is a drop of voltage, for example due to red light start/stop functionality in the car or modern cars turning down battery charging even when driving. Then you just monitor either the threshold with SENSE_V_DIGI or set your own thresholds using SENSE_V_ANA and theh add your own timer delays or whatever. And of course, you can use CAN to check if the car is stopped in a multitude of ways, rpm, speed, gear...
+
+
+
    
 ![matrix power scenarios](https://user-images.githubusercontent.com/32169384/180321585-c3b46872-c4b4-4583-bcea-3c7e8c0705bd.gif)
 
@@ -95,7 +107,7 @@ At 14V the complete board draws *on average* roughly:
     
 ## CAN interface
 
-You can hook the board up straight to the car's OBD2 port or attach it directly to any CAN bus. You just need to connect the four wires. 12V power, ground, CAN high and low. There is of course a bus termination resistor on the board, it can be disabled if not needed. More CAN ports can be added using cheap MCP2515 boards.
+You can hook the board up straight to the car's OBD2 port or attach it directly to any CAN bus. You just need to connect the four wires. 12V power, ground, CAN high and low. There is of course a bus termination resistor on the board, it can be disabled if not needed by cutting a pcb trace and optionally mounting a pin header and jumper. 
 
 ## Three on board LEDs  
 

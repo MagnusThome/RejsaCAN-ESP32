@@ -30,6 +30,8 @@ What CAN/OBD2 library should one use? There are a couple of different CAN librar
 
 ## Schematics
 
+click to enlarge
+
 <a href=https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/Schematics><img src=Schematics/Schematic_RejsaCAN%20v3.2.png></a>
 
 ## The board is based around an ESP32-S3 chip

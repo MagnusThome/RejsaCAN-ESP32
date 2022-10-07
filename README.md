@@ -81,7 +81,7 @@ You can hook the board up straight to the car's OBD2 port or attach it directly 
 
 # Functionality
 
-The idea was to make an as small as possible CAN + ESP32 board with as many cool and useful "good to have" functions as possible included.
+The idea was to make an as small as possible CAN + ESP32 board with as many cool and useful "good to have" functions as possible included. You know as well as I do that when tinkering around you suddenly get a new idea and need x or y :-D 
 
 ## Auto shutdown
 

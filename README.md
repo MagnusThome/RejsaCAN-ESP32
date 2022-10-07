@@ -108,24 +108,24 @@ Either one can just let the board turn on and off with the auto shutdown hardwar
 
 ### Three on board LEDs  
 
-- Green power LED that shows if the board is turned on or not. If using the auto shutdown the green LED (and the board) will be turned on and off depending on the car voltage being over or under the auto start/shutdown threshold.
+- Green power LED that shows if the board is turned on or not. If using the auto shutdown the green LED (and the board) will be turned on and off depending on if the car voltage is over or under the auto start/shutdown threshold.
 
 - Blue LED to use for anything you fancy (BLUE_LED GPIO10)
 - Yellow LED to use for anything (YELLOW_LED GPIO11)
 
 ### Extra UART RX/TX
 
-The ESP32-S3 has a built in USB port for uploading firmware, OTG support(!) and general communicating. But on the boards rear there are breakout pads for a second UART (TXD0 and RXD0) so you can use both this as a serial port and the board's USB port for other tasks like JTAG or OTG, acting as a peripheral keyboard, mouse, wireless storage and so on.
+The ESP32-S3 has a built in USB port for uploading firmware, OTG support(!) and general communication. But on the board's rear there are breakout pads for a second UART (TXD0 and RXD0) so you can use this as a serial port and the board's USB port for other tasks like JTAG or OTG, acting as a peripheral keyboard, mouse, wireless storage and so on.
 
 ### 3V3 HIGH DRIVER
 
-The GPIO pins on the ESP32-S3 can in addition to general digital circuitry also drive 10-20mA loads like LEDs and other smaller loads. But on the RejsaCAN board there is an added more powerful driver circuit that can drive slightly larger loads of a few hundred mA at 3,3V. This can be used for different things like power to external sensors or a small display that you want to be able to shutdown fully to minimize power consumption while in sleep mode for example. This 3V3 SWITCHED output is controlled by HI_DRIVER GPIO21. The ESP32-S can keep this on or off when in sleep mode.
+The GPIO pins on the ESP32-S3 can, in addition to general digital circuitry, also drive 10-20mA loads like LEDs and other smaller loads. But on the RejsaCAN board there is an added more powerful driver circuit that can drive slightly larger loads of a few hundred mA at 3,3V. This can be used for different things like powering external sensors or a small display that you want to be able to shutdown fully to minimize power consumption while in sleep mode for example. This 3V3_SWITCHED output is controlled by HI_DRIVER (GPIO21). The ESP32-S3 can keep this on or off when in sleep mode.
 
-There is also a 3,3V power output pad in the row of pads that is turned on whenever the board is running. Keep in mind this is not a 3V3 _input_ to drive the board, it is only an output to drive I2C, SPI and other sensors.
+There is also a 3,3V power output pad in the row of connection pads on the board that is turned on whenever the board is running. Keep in mind that this is _not_ a 3V3 input to drive the board, it is only an output to drive external I2C, SPI and other sensors.
 
 ### SD card reader
 
-Optionally one can mount an SD micro card reader on the board rear side. It is connected to SPI and select SD_CARD (GPIO45)
+Optionally one can mount an SD micro card reader on the rear of the pcb. It is connected to SPI and select SD_CARD (GPIO45)
 
 ### Other general IO pins
 
@@ -148,13 +148,13 @@ All the GPIOs found on the row of connector pads are general purpose. They can b
 
 ### CAN bus
 
-As mentioned earlier the CAN_RX GPIO13 can wake the ESP32-S3 from sleep whenever any traffic is seen on the CAN bus.
+As mentioned earlier the CAN_RX (GPIO13) can wake the ESP32-S3 from sleep whenever any traffic is seen on the CAN bus.
 
 The rise time of the CAN transceiver chip can be changed pulling CAN_RS (GPIO38) high or low. Default is keeping the pin unmodified in high impedance state for an optimal not-to-fast rise time setting. See specs for the transceiver chip SN65HVD230DR.
 
 ### JTAG
 
-You can either run JTAG over the USB port or optionally keeping the USB port free by connecting your JTAG hardware to MTDI, MTDO, MTCK and MTMS on the board. Note that MTMS is only available on the boards rear side. The other are available in the row of connecting pads. Incidentally the MTDI, MTDO and MTCK are the same as the SPI default pins.
+You can either run JTAG over the USB port or optionally keep the USB port free by connecting your JTAG hardware to MTDI, MTDO, MTCK and MTMS on the board. Note that MTMS is only available on the board's rear. The other are available in the row of connecting pads. Incidentally the MTDI, MTDO and MTCK are the same as the SPI default pins.
 
 To enable JTAG mode you need to pull the JTAG_ENABLE pad, found on the rear of the board, high or low at boot.
 

@@ -1,0 +1,1 @@
+Please note that these examples were written for the first version of the RejsaCAN board with an ESP32, not the newer ESP32-S3. I might get around to add new examples but honestly the examples that come with the libraries you use are all you need :-)

@@ -28,6 +28,8 @@ You find some 3D printable housings I made here:
    
 ## Pinout  
   
+See complete pinout.h https://github.com/MagnusThome/RejsaCAN-ESP32/blob/main/pinout.h  
+  
 ![Screenshot 2022-10-06 202107](https://user-images.githubusercontent.com/32169384/194756859-7d9f5b9e-a82b-44cf-994c-bd47fe5fef6c.png)
    
   

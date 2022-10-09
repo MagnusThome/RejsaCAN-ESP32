@@ -24,10 +24,11 @@ What CAN/OBD2 library should one use? There are a couple of different CAN librar
  
 ## Pinout  
   
-![Screenshot 2022-10-06 202107](https://user-images.githubusercontent.com/32169384/194756546-ed9bdfc0-b64e-40f7-ab80-991d972e5aa8.png)
-  
-![Screenshot 2022-10-06 202443](https://user-images.githubusercontent.com/32169384/194756556-d21c8c21-194b-4e2b-8f9f-eda36049f3e9.png)
-  
+![Screenshot 2022-10-06 202107](https://user-images.githubusercontent.com/32169384/194756859-7d9f5b9e-a82b-44cf-994c-bd47fe5fef6c.png)
+ 
+ 
+ ![IMG_20221006_202701](https://user-images.githubusercontent.com/32169384/194756867-1cd91028-05a3-43fc-836e-cbcb00abf86a.jpg)
+
   
 ## Schematics
 

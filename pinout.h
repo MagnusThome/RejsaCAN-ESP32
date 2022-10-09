@@ -30,7 +30,6 @@ GPIO02  or I2C SCL
 GPIO39  or SPI CLK
 GPIO40  or SPI MOSI
 GPIO41  or SPI MISO
-GPIO42  or JTAG MTMS (only on rear)
 
 GPIO12  no default use
 GPIO48  no default use
@@ -52,5 +51,6 @@ TXD     second UART
 
 GPIO0   PROGR mode strapping pin
 GPIO03  JTAG_ENABLE strapping pin
+GPIO42  or JTAG MTMS
 
 */

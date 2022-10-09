@@ -168,7 +168,6 @@ To enable JTAG mode you need to pull the JTAG_ENABLE pad, found on the rear of t
 
 On v3.x boards you can programatically check what version of the board your code is running on and adjust accordingly for the small changes that have been made on the boards. Set GPIO4 and GPIO5 to input pullup and check if the inputs are high or low.
 
-- v3.0 = GPIO4 and GPIO5 both high  
 - v3.1 = GPIO4 low and GPIO5 high  
 - v3.2 = GPIO4 high and GPIO5 low  
 

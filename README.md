@@ -22,7 +22,9 @@ What CAN/OBD2 library should one use? There are a couple of different CAN librar
  
 - <a href=Tips%20to%20setup%20IDE%20and%20get%20started>Links to some different CAN libraries and tips to get started</a>  
   
-![IMG_20221009_144837](https://user-images.githubusercontent.com/32169384/194757910-a5cecbe4-e6c0-4819-8e42-c8b9c258ed8e.jpg)
+  
+![IMG_20221009_144837](https://user-images.githubusercontent.com/32169384/194758017-36f51c68-5326-45f4-9183-615ad204baf5.jpg)
+
    
 ## Pinout  
   

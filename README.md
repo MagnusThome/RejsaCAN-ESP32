@@ -80,7 +80,7 @@ The ESP3232-S3 is a very nice and capable chip that supports a crazy vast range 
 ## Or just the board and screw terminals
 ![IMG_20211116_202642](https://user-images.githubusercontent.com/32169384/142052421-174120e8-17d9-403a-9424-e6581dac0180.jpg)
 
-## CAN interface
+# CAN interface
 
 You can hook the board up straight to the car's OBD2 port or attach it directly to any CAN bus. You just need to connect the four wires. 12V power, ground, CAN high and low. There is of course a bus termination resistor on the board, it can be disabled if not needed by cutting a pcb trace and optionally mounting a pin header and jumper.
 

@@ -49,8 +49,8 @@ GPIO16  extra
 RXD     second UART
 TXD     second UART
 
-GPIO0   PROGR mode strapping pin
-GPIO03  JTAG_ENABLE strapping pin
+GPIO0   and PROGR mode strapping pin
+GPIO03  and JTAG_ENABLE strapping pin
 GPIO42  or JTAG MTMS
 
 */

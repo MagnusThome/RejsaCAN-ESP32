@@ -21,14 +21,13 @@ Complete schematics of all board versions:
 What CAN/OBD2 library should one use? There are a couple of different CAN libraries to choose from, here are some links:
  
 - <a href=Tips%20to%20setup%20IDE%20and%20get%20started>Links to some different CAN libraries and tips to get started</a>  
- 
+  
+![IMG_20221009_144837](https://user-images.githubusercontent.com/32169384/194757910-a5cecbe4-e6c0-4819-8e42-c8b9c258ed8e.jpg)
+   
 ## Pinout  
   
 ![Screenshot 2022-10-06 202107](https://user-images.githubusercontent.com/32169384/194756859-7d9f5b9e-a82b-44cf-994c-bd47fe5fef6c.png)
- 
- 
- ![IMG_20221006_202701](https://user-images.githubusercontent.com/32169384/194756867-1cd91028-05a3-43fc-836e-cbcb00abf86a.jpg)
-
+   
   
 ## Schematics
 

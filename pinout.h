@@ -30,23 +30,25 @@ GPIO02  or I2C SCL
 GPIO39  or SPI CLK
 GPIO40  or SPI MOSI
 GPIO41  or SPI MISO
-GPIO42  or JTAG MTMS
+GPIO42  or JTAG MTMS (only on rear)
 
 GPIO12  no default use
 GPIO48  no default use
 GPIO47  no default use
 GPIO21  Power output driver, not actual GPIO pin
 
-RXD     second UART
-TXD     second UART
-
 GPIO10  LED only, no pad!
 GPIO11  LED only, no pad!
 
+Only available as pads on the rear side of the board:
+  
 GPIO06  extra
 GPIO07  extra
 GPIO15  extra
 GPIO16  extra
+
+RXD     second UART
+TXD     second UART
 
 GPIO0   PROGR mode strapping pin
 GPIO03  JTAG_ENABLE strapping pin

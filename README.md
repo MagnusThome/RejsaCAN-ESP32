@@ -133,20 +133,20 @@ Optionally one can mount an SD micro card reader on the rear of the pcb. It is c
 
 All the GPIOs found on the row of connector pads are general purpose. They can be PWM, analog, digital in/out whatever, special protocols driving or reading most things you can think of. But for ease of use for me with occasional lousy memory I have marked some default uses:
 
-- I2C SDA  (GPIO1)
-- I2C SCL  (GPIO2)
-- GND
-- 3V3
+I2C SDA  (GPIO1)
+I2C SCL  (GPIO2)
+GND
+3V3
 
-- SPI MISO / MTDI  (GPIO41)
-- SPI CLK  / MTCK  (GPIO39)
-- SPI MOSI / MTDO  (GPIO41)
+SPI MISO / MTDI  (GPIO41)
+SPI CLK  / MTCK  (GPIO39)
+SPI MOSI / MTDO  (GPIO41)
 
-- GPIO12
-- GPIO48
-- GPIO47
+GPIO12
+GPIO48
+GPIO47
 
-- And high driver output only GPIO21
+And high driver output only GPIO21
 
 ### CAN bus
 
@@ -161,6 +161,24 @@ The rise time of the CAN transceiver chip can be changed pulling CAN_RS (GPIO38)
 You can either run JTAG over the USB port or optionally keep the USB port free by connecting your JTAG hardware to MTDI, MTDO, MTCK and MTMS on the board. Note that MTMS is only available on the board's rear. The other are available in the row of connecting pads. Incidentally the MTDI, MTDO and MTCK are the same as the SPI default pins.
 
 To enable JTAG mode you need to pull the JTAG_ENABLE pad, found on the rear of the board, high or low at boot.
+
+### Board version
+
+On v3.x boards you can programatically check what version of the board your code is running on and adjust accordingly for the small changes that have been made on the boards. Set GPIO4 and GPIO5 to input pullup and check if the inputs are high or low.
+
+- v3.0 = GPIO4 and GPIO5 both high  
+- v3.1 = GPIO4 low and GPIO5 high  
+- v3.2 = GPIO4 high and GPIO5 low  
+
+### Changes
+
+#### v3.2
+
+- Added RS control of the CAN chip to set both standby mode and faster rise times
+- Added better over voltage protection on power from the car
+- Upgraded over voltage protection on USB power
+- Enabling ALWAYS_ON is now done by shorting two clearly marked pads on the rear of the board
+- An added emtpy spot for resistor R19 ADJUST which can be added to lower the start/stop voltage threshold for the board
 
 ## Power consumption  
  

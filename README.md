@@ -181,6 +181,7 @@ On v3.x boards you can programatically check what version of the board your code
 - Upgraded over voltage protection on USB power
 - Enabling ALWAYS_ON is now done by shorting two clearly marked pads on the rear of the board
 - An added emtpy spot for resistor R19 ADJUST which can be added to lower the start/stop voltage threshold for the board
+- For panic situations the GPIO6, GPIO7, GPIO15 and GPIO16 are available as unmarked pads but only on the rear of the board
 
 ## Power consumption  
  

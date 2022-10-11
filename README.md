@@ -66,14 +66,16 @@ The ESP3232-S3 is a very nice and capable chip that supports a crazy vast range 
 
 ## Ideas for peripherals
 
-- IR camera sensor arrays (MLX90xxx or AMG8833) to log tire, brake, drivetrain temperatures over BLE to Racechrono or CAN based loggers (like my project RejsaRubberTrac https://github.com/MagnusThome/RejsaRubberTrac)
-- Laser based TOF distance sensor to log suspension travel (I did this too with RejsaRubberTrac)
-- SPI or I2C based color displays to show CAN bus data like IC intake or oil temps or alarms
-- SPI or I2C based color displays to show live telemetric data fetched over BLE from Racechrono
-- A second CAN port
-- Driver board to drive high power items
-- Step motor drivers
-- Multiple input analog or digital boards
+<img align=right width=50% src=https://user-images.githubusercontent.com/32169384/195158064-2a3aa449-2554-4737-a2f2-7ac039983e5e.png>
+
+- IR camera sensor arrays (MLX90xxx or AMG8833) to log tire, brake, drivetrain temperatures over BLE to Racechrono or CAN based loggers (like my project RejsaRubberTrac https://github.com/MagnusThome/RejsaRubberTrac)  
+- Laser based TOF distance sensor to log suspension travel (I did this too with RejsaRubberTrac)  
+- SPI or I2C based color displays to show CAN bus data like IC intake or oil temps or alarms  
+- SPI or I2C based color displays to show live telemetric data fetched over BLE from Racechrono  
+- A second CAN port  
+- Driver board to drive high power items  
+- Step motor drivers  
+- Multiple input analog or digital boards  
    
 ## One of the 3D printed housings with OBD2 connector I've made
 ![IMG_20211116_203136](https://user-images.githubusercontent.com/32169384/142067937-3678866e-b6aa-4547-876a-56e76185f119.jpg)

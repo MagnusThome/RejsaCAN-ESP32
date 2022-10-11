@@ -66,7 +66,7 @@ The ESP3232-S3 is a very nice and capable chip that supports a crazy vast range 
 
 ## Ideas for peripherals
 
-<img align=right width=50% src=https://user-images.githubusercontent.com/32169384/195158064-2a3aa449-2554-4737-a2f2-7ac039983e5e.png>
+<a target=_blank href=https://github.com/MagnusThome/RejsaRubberTrac><img align=right width=50% src=https://user-images.githubusercontent.com/32169384/195158064-2a3aa449-2554-4737-a2f2-7ac039983e5e.png></a>
 
 - IR camera sensor arrays (MLX90xxx or AMG8833) to log tire, brake, drivetrain temperatures over BLE to Racechrono or CAN based loggers (like my project RejsaRubberTrac https://github.com/MagnusThome/RejsaRubberTrac)  
 - Laser based TOF distance sensor to log suspension travel (I did this too with RejsaRubberTrac)  

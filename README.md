@@ -12,7 +12,7 @@ Check out ideas and what I'm using the board for here:
 and you find example code here:
 - <a href=examples>Code examples</a>
  
-Complete schematics of all board versions:
+Complete schematics of all board versions (all v3.x are S3 based ESP32-S3 and all v2.x are non-S3 ESP32)
 - <a href=https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/Schematics>Schematics</a>
 
 What CAN/OBD2 library should one use? There are a couple of different CAN libraries to choose from, here are some links:
@@ -178,7 +178,7 @@ On v3.x boards you can programatically check what version of the board your code
 
 ### Changes
 
-#### v3.2
+#### from v3.1 to v3.2
 
 - Added RS control of the CAN chip to set both standby mode and faster rise times
 - Added better over voltage protection on power from the car
@@ -186,7 +186,12 @@ On v3.x boards you can programatically check what version of the board your code
 - Enabling ALWAYS_ON is now done by shorting two clearly marked pads on the rear of the board
 - An added emtpy spot for resistor R19 ADJUST which can be added to lower the start/stop voltage threshold for the board
 - For panic situations the GPIO6, GPIO7, GPIO15 and GPIO16 are available as unmarked pads but only on the rear of the board
-
+  
+#### From v2.3 to v.2.4
+  
+- Upgraded over voltage protection on USB power  
+  
+  
 ## Power consumption  
  
 At 14V the complete board draws *on average* roughly:  

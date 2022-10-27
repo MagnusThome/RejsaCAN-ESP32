@@ -1,6 +1,6 @@
 # RejsaCAN
 
-RejsaCAN is a 3x5 centimeter small ESP32-S3 based board aimed at car use that I put together for my own use in my assorted crazy car projects. The board has an onboard CAN interface and can be powered directly from the car (5-15V). It also includes the option to auto shutdown so not to drain the car battery. This is especially important if you have it plugged in to a car OBD2 connector since these always supply constant 12V power to the connector, even when the car is parked and turned off.
+RejsaCAN is a 3x5 centimeter small ESP32 or ESP32-S3 based board aimed at car use that I put together for my own use in my assorted crazy car projects. The board has an onboard CAN interface and can be powered directly from the car (5-15V). It also includes the option to auto shutdown so not to drain the car battery. This is especially important if you have it plugged in to a car OBD2 connector since these always supply constant 12V power to the connector, even when the car is parked and turned off.
 
 There is no bespoke code for the board apart from pin definitions, it's just a piece of universal hardware, but by using easy to use open source Arduino libraries it can be made to interface not only to various CAN buses, Network/Wifi and Bluetooth but to numerous sensors and other peripherals using the ESP32's built in interfaces.
 
@@ -39,9 +39,9 @@ click to get full size schematics
 
 <a href=https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/Schematics><img src=Schematics/Schematic_RejsaCAN%20v3.2.png></a>
 
-## The board is based around an ESP32-S3 chip
+## The board is based around an ESP32 or ESP32-S3 chip
 
-The ESP3232-S3 is a very nice and capable chip that supports a crazy vast range of communication standards and hardware auxiliaries making it a very versatile "hub" for shuffling data between different systems.  
+The ESP3232-S3 is a very nice and capable chip that supports a mind boggling range of different communication standards and hardware auxiliaries making it a very versatile "hub" for shuffling data between different systems.  
 
 - SPI bus
 - I2C bus
@@ -137,24 +137,24 @@ There is also a 3,3V power output pad in the row of connection pads on the board
 Optionally one can mount an SD micro card reader on the rear of the pcb. It is connected to SPI and select SD_CARD (GPIO45)
 
 ### Other general IO pins
-
-All the GPIOs found on the row of connector pads are general purpose. They can be PWM, analog, digital in/out whatever, special protocols driving or reading most things you can think of. But for ease of use for me with occasional lousy memory I have marked some default uses:
-
-I2C SDA  (GPIO1)
-I2C SCL  (GPIO2)
-GND
-3V3
-
-SPI MISO / MTDI  (GPIO41)
-SPI CLK  / MTCK  (GPIO39)
-SPI MOSI / MTDO  (GPIO41)
-
-GPIO12
-GPIO48
-GPIO47
-
-And high driver output only GPIO21
-
+  
+All the GPIOs found on the row of connector pads are general purpose. They can be PWM, analog, digital in/out whatever, special protocols driving or reading most things you can think of. But for ease of use for me with occasional lousy memory I have marked some default uses:  
+  
+I2C SDA  (GPIO1)  
+I2C SCL  (GPIO2)  
+GND  
+3V3  
+  
+SPI MISO / MTDI  (GPIO41)  
+SPI CLK  / MTCK  (GPIO39)  
+SPI MOSI / MTDO  (GPIO41)  
+  
+GPIO12  
+GPIO48  
+GPIO47  
+  
+And high driver output only GPIO21  
+  
 ### CAN bus
 
 As mentioned earlier the CAN_RX (GPIO13) can wake the ESP32-S3 from sleep whenever any traffic is seen on the CAN bus.
@@ -185,7 +185,7 @@ On v3.x boards you can programatically check what version of the board your code
 - Upgraded over voltage protection on USB power
 - Enabling ALWAYS_ON is now done by shorting two clearly marked pads on the rear of the board
 - An added emtpy spot for resistor R19 ADJUST which can be added to lower the start/stop voltage threshold for the board
-- For panic situations the GPIO6, GPIO7, GPIO15 and GPIO16 are available as unmarked pads but only on the rear of the board
+- For panic situations when you need more pins ;-) the GPIO6, GPIO7, GPIO15 and GPIO16 are available as unmarked pads but only on the rear of the board
   
 #### From v2.3 to v.2.4
   

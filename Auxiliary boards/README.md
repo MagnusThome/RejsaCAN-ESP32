@@ -1,17 +1,23 @@
 # Some extras I made...
   
   
+## OBD2 connector boards
+  
+To avoid using short cables I made two different interconnect boards. One for sandwich mounting and one 90 degree mounted.
+  
+### Angled 90 degrees:
+  
+<img height=330px src=https://user-images.githubusercontent.com/32169384/198618565-c62f2870-a397-42fd-8966-4476492857e1.jpg> <img height=330px src=https://user-images.githubusercontent.com/32169384/198615061-f654371a-f9ef-4fa2-b6b6-4614f3363b25.jpg> <img height=330px src=https://user-images.githubusercontent.com/32169384/198619672-9e8ac8cd-0c09-4952-b50c-4595206e3b99.jpg>
+  
+### Sandwich mounted:  
+  
+<img height=340px src=https://user-images.githubusercontent.com/32169384/198616300-52a047a9-5852-4b70-94de-2ec60c5e5b04.jpg> <img height=340px src=https://user-images.githubusercontent.com/32169384/198613772-995b0b8f-1287-4215-b6c6-f1a3a60b0e48.jpg> <img height=340px src=https://user-images.githubusercontent.com/32169384/198613783-ac942b3c-65a6-42db-980e-aefbc8119808.jpg>  
+  
+
 ## Micro SD card reader for v2.x (non S3) boards
   
 <img height=360px src=https://user-images.githubusercontent.com/32169384/198269973-873b765d-44bd-402c-9c00-d1684468b96d.jpg> <img height=360px src=https://user-images.githubusercontent.com/32169384/198265990-d881c6a4-3d63-418d-89d6-2429966e4796.png>  
   
-## OBD2 connector boards
-  
-There's also a black version that is attached to the main board at a 90 degree angle instead of the below board that is "sandwich" mounted  
-  
-<img height=460px src=https://user-images.githubusercontent.com/32169384/198266287-6aaf0fd5-237a-40b2-b5cf-616dab5daa5f.jpg> <img height=460px src=https://user-images.githubusercontent.com/32169384/198266308-4b0e8259-94e5-43fb-aa96-9018efb0cda0.jpg>
-
-
 ## Display connector boards  
   
 So you get the correct pinout for some small SPI display boards with touch.   

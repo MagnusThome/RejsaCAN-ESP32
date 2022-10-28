@@ -6,22 +6,22 @@ There is no bespoke code for the board apart from pin definitions, it's just a p
 
 If you think the board really would fit your project you can give me a holler at magnust@gmail.com. I had JLCPCB make and assemble my own small batch of boards.
  
-Check out ideas and what I'm using the board for here:
-- <a href=Projects%20and%20ideas>Projects and ideas</a>  
+  
+### Check out these sub pages after reading this page 
+  
+- <a href=Projects%20and%20ideas>Fun projects and ideas</a>  
  
-and you find example code here:
-- <a href=examples>Code examples</a>
- 
-Complete schematics of all board versions (all v3.x are S3 based ESP32-S3 and all v2.x are non-S3 ESP32)
-- <a href=https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/Schematics>Schematics</a>
+- <a href=Schematics>Schematics</a>
 
-What CAN/OBD2 library should one use? There are a couple of different CAN libraries to choose from, here are some links:
+- <a href=examples>Code examples (mainly for non S3)</a>
  
 - <a href=Tips%20to%20setup%20IDE%20and%20get%20started>Links to some different CAN libraries and tips to get started</a>  
   
-You find some 3D printable housings I made here:
--  <a href=3dprint>3D printable housings</a>  
+-  <a href=3dprint>Examples of 3D printable housings</a>  
 
+-  <a href=Auxiliary%20boards>Some odd auxiliary boards I made to mount an OBD2 connector, display...</a>  
+
+<hr>
   
 ![IMG_20221009_144837](https://user-images.githubusercontent.com/32169384/194758017-36f51c68-5326-45f4-9183-615ad204baf5.jpg)
 

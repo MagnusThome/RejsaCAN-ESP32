@@ -102,7 +102,14 @@ https://youtu.be/GOuglqFtmOE
   
 Since it runs on 12V why not make an infrared camera to measure and log your cars tire temperatures for a couple of tenners per wheel. Works with both Racechrono and Harry's Laptimer. Downloadable code and lots of info here: https://github.com/MagnusThome/RejsaRubberTrac
 
-![image](https://user-images.githubusercontent.com/32169384/140487234-bcab10ce-9524-4d62-9b15-278a38266f7f.png)
+![image](https://user-images.githubusercontent.com/32169384/140487234-bcab10ce-9524-4d62-9b15-278a38266f7f.png)  
+  
+# Reverse OBD2
+  
+This one acts like a fake car replying to OBD2 requests. The code running on it changes the rpm and other data in sequence.  
 
+![reversed OBD2](https://user-images.githubusercontent.com/32169384/198852454-1bac6b41-181c-4d72-8180-a7df37f1ad45.jpg)
+  
+  <hr>
 
 

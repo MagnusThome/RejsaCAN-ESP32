@@ -24,3 +24,10 @@ So you get the correct pinout for some small SPI display boards with touch.
   
 <img height=360px src=https://user-images.githubusercontent.com/32169384/198266848-5e1c23a2-e2b1-47a6-af76-0c83e5047e11.jpg> <img height=360px src=https://user-images.githubusercontent.com/32169384/198266874-39f95a7f-96fa-4d65-a341-b10af82bd19e.jpg> <img height=360px src=https://user-images.githubusercontent.com/32169384/198268723-61f4695b-2aab-4c8d-b9aa-4ee8fd16608f.jpg>
 
+## Thermal camera board  
+  
+See https://github.com/MagnusThome/RejsaRubberTrac  
+
+![image](https://user-images.githubusercontent.com/32169384/198899860-1f6ab3f7-8e34-4d04-8610-2668c8cabf6e.jpg)
+
+

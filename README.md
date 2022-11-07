@@ -140,20 +140,32 @@ Optionally one can mount an SD micro card reader on the rear of the pcb. It is c
   
 All the GPIOs found on the row of connector pads are general purpose. They can be PWM, analog, digital in/out whatever, special protocols driving or reading most things you can think of. But for ease of use for me with occasional lousy memory I have marked some default uses:  
   
-I2C SDA  (GPIO1)  
-I2C SCL  (GPIO2)  
+I2C SDA  (GPIO1)  (A0)  
+I2C SCL  (GPIO2)  (A1)  
 GND  
 3V3  
   
 SPI MISO / MTDI  (GPIO41)  
 SPI CLK  / MTCK  (GPIO39)  
-SPI MOSI / MTDO  (GPIO41)  
+SPI MOSI / MTDO  (GPIO40)  
   
-GPIO12  
-GPIO48  
-GPIO47  
+General  (GPIO12)  
+General  (GPIO48)  
+General  (GPIO47)  
+High driver switched output max 500mA  (GPIO21)  
+
+On the rear side of the pcb you can get to a few extra pins but it's not possible so solder pin headers here due to the esp-module being on the other side of the board where these pads are.  
   
-And high driver output only GPIO21  
+General  (GPIO6)  (A5)  
+General  (GPIO7)  (A6)  
+General  (GPIO15)  
+General  (GPIO16)  
+MTMS  (GPIO42)
+PROG  (GPIO0)
+JTAG_ENABLE  (GPIO3)
+TXD0  
+RXD0 
+  
   
 ### CAN bus
 

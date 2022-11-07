@@ -160,11 +160,11 @@ General  (GPIO6)  (A5)
 General  (GPIO7)  (A6)  
 General  (GPIO15)  
 General  (GPIO16)  
-MTMS  (GPIO42)
-PROG  (GPIO0)
-JTAG_ENABLE  (GPIO3)
-TXD0  
-RXD0 
+MTMS  (GPIO42)  
+PROG  (GPIO0)  
+JTAG_ENABLE  (GPIO3)  
+TXD0   
+RXD0  
   
   
 ### CAN bus

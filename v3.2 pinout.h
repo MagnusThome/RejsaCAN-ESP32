@@ -31,9 +31,9 @@ GPIO39  or SPI CLK
 GPIO40  or SPI MOSI
 GPIO41  or SPI MISO
 
-GPIO12  no default use
-GPIO48  no default use
-GPIO47  no default use
+GPIO12  General GPIO, no default use
+GPIO48  General GPIO, no default use
+GPIO47  General GPIO, no default use
 GPIO21  Power output driver, not actual GPIO pin
 
 GPIO10  LED only, no pad!

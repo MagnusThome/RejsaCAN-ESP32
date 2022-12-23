@@ -203,7 +203,7 @@ On v3.x boards you can programatically check what version of the board your code
   
 - Upgraded over voltage protection on USB power  
 
-#### From v2.4 to v.2.5
+#### From v2.4 to v.2.5 and 3.2 to 3.3
   
 - DC-DC converter supports 24V input  
 

@@ -54,5 +54,3 @@ Housing with an OBD2 connector so you can plug it in to the car directly.
 ![small-housing(3)](https://user-images.githubusercontent.com/32169384/138956928-8b44a92c-3336-4f66-8bfb-3b2ae9432360.jpg)
 
 ![small-housing(2)](https://user-images.githubusercontent.com/32169384/138956945-97b0403a-e5a8-471f-bc6c-01ba239a281d.jpg)
-
-![138956907-5b824772-4a7d-4e6e-83ae-9dbffd630f16](https://user-images.githubusercontent.com/32169384/143060877-c0aed2a2-6649-4952-a975-7c262e33fbed.jpg)

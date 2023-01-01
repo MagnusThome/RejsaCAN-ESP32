@@ -28,21 +28,23 @@ Three housings done so far:
 
 # With an OBD2 connector
 
-Housing with an OBD2 connector so you can plug it in to the car directly.  
+Housing with an OBD2 connector so you can plug it in to the car directly.
 
-![IMG_20221231_231412](https://user-images.githubusercontent.com/32169384/210156650-0963d822-1c6c-4984-b8ae-49b958e09c1f.jpg)
-
-![IMG_20221231_231202](https://user-images.githubusercontent.com/32169384/210156653-dbde8e1f-eda4-4faa-8893-ebe406237776.jpg)
-
+## "Horizontal"
+  
+![IMG_20230101_144314](https://user-images.githubusercontent.com/32169384/210176532-8d54fdb8-3f13-40ab-a625-1747000f7ba4.jpg)
+  
+![IMG_20230101_163405](https://user-images.githubusercontent.com/32169384/210176536-505c07d2-8870-4163-a1d2-327c2da3038a.jpg) 
+  
 ![IMG_20221231_231028](https://user-images.githubusercontent.com/32169384/210156654-61d12e8b-7d08-4b2b-87bc-609340bda82a.jpg)
 
 ![IMG_20221231_230941](https://user-images.githubusercontent.com/32169384/210156655-14b1d871-1d6b-48fd-9cf7-27f492be7083.jpg)
 
-![transparent-case-1](https://user-images.githubusercontent.com/32169384/140562989-ef19db84-efe9-4cef-b11b-e821bd927e71.jpg)
+## "Vertical"
  
 <img src=https://user-images.githubusercontent.com/32169384/143077864-54e38de2-3b4a-4f49-bef5-e98d03e61bf6.jpg>
 
- Add a beeper?  
+## Add a beeper?  
  
 ![IMG_20211121_112251](https://user-images.githubusercontent.com/32169384/144240512-132497fa-c2ef-4080-86c8-e45fe76d6463.jpg)
 

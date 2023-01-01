@@ -7,9 +7,7 @@ I'll add fun stuff here...
 
 A beeper that only takes a few milliamperes is driven directly from one of the ESP32 pins. Alarm set on over rev in this case but can of course be oil and/or water temperatures, oil pressure (if you know the PID) or anything you want.
 
-![IMG_20211106_095624](https://user-images.githubusercontent.com/32169384/140606426-05275d57-c2cf-4f5c-8924-d752cf405bbe.jpg)
-
-![IMG_20211106_095633](https://user-images.githubusercontent.com/32169384/140606429-8cfcbdd0-5ed1-4404-bb08-cef960614a3e.jpg)
+![144240512-132497fa-c2ef-4080-86c8-e45fe76d6463](https://user-images.githubusercontent.com/32169384/210176920-bcd44e93-6d30-44fd-b741-3fc2d8a0aec3.jpg)
 
 
 # CAN data on a touch screen

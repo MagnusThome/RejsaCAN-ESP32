@@ -1,1 +1,3 @@
-Please note that these examples were written for the first version of the RejsaCAN board with an ESP32, not the newer ESP32-S3. I might get around to add new examples but honestly the examples that come with the libraries you use are all you need :-)
+Since the ESP32-S3 is slightly different when it comes to its CAN API compared to the older ESP32 this interesting port for the S3 might be very useful (if you have the S3 version of the RejsaCAN board). Thanks to Pawel for his ports!
+
+https://github.com/pawelka/esp32_can

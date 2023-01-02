@@ -13,7 +13,7 @@ If you think the board really would fit your project you can give me a holler at
  
 - <a href=Schematics>Schematics</a>
 
-- <a href=examples>Code examples (mainly for non S3)</a>
+- <a href=examples>Code examples</a>
  
 - <a href=Tips%20to%20setup%20IDE%20and%20get%20started>Links to some different CAN libraries and tips to get started</a>  
   

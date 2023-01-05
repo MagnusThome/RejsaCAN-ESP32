@@ -106,8 +106,8 @@ Since it runs on 12V why not make an infrared camera to measure and log your car
   
 Works for example with SimosTools, an android based ecu flashing and logging software  
   
-https://github.com/bri3d/esp32-isotp-ble-bridge
-https://github.com/Switchleg1/esp32-isotp-ble-bridge (fork)
+https://github.com/bri3d/esp32-isotp-ble-bridge  
+https://github.com/Switchleg1/esp32-isotp-ble-bridge (fork)  
   
 # Reverse OBD2
   

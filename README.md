@@ -205,7 +205,7 @@ On v3.x boards you can programatically check what version of the board your code
 
 #### From v2.4 to v.2.5 and 3.2 to 3.3
   
-- DC-DC converter supports 24V input  
+- DC-DC converter supports 24V input. The auto switch on/off threshold can be changed by changing two resistor values.  
 
   
 ## Power consumption  

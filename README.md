@@ -19,7 +19,7 @@ If you think the board really would fit your project you can give me a holler at
   
 -  <a href=3dprint>Examples of 3D printable housings</a>  
 
--  <a href=Auxiliary%20boards>Some odd auxiliary boards I made to mount an OBD2 connector, display...</a>  
+-  <a href=Auxiliary%20boards>Some odd auxiliary boards I made to mount an OBD2 connector, display, thermal cam...</a>  
 
 <hr>
   

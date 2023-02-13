@@ -23,7 +23,7 @@ void setup() {
   digitalWrite(BLUE_LED, LOW);
   
   SerialBT.begin("RejsaCAN");
-     
+  CAN0.setListenOnlyMode(true); 
   if( ! CAN0.begin()) { 
     Serial.println("CAN0 Init Failed");  
     SerialBT.println("CAN0 Init Failed");  

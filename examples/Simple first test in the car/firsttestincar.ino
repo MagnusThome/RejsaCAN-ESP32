@@ -23,7 +23,11 @@ BluetoothSerial SerialBT;
 
 
 void setup() {
+  Serial.begin(115200);
   SerialBT.begin("RejsaCAN");
+  Serial.println("Boot");
+  SerialBT.println("Boot");
+
   pinMode(26, OUTPUT); // THE CAN LIBRARY HAS THIS PIN FOR INTERRUPT FOR CAN1 (UNSUSED HERE) INPUT WITHOUT PULLUP, FORCE TO OUTPUT INSTEAD TO PREVENT ERRONEOUS INTERRUPTS.
   
   pinMode(YELLOW_LED, OUTPUT);
@@ -31,7 +35,7 @@ void setup() {
   digitalWrite(YELLOW_LED, LOW);
   digitalWrite(BLUE_LED, LOW);
 
-  CAN0.begin();
+  CAN0.begin(CAN_BPS_500K);
   CAN0.watchFor(CAN_REPLY_ID);
   CAN0.setCallback(0, callback);
 }
@@ -40,6 +44,7 @@ void loop() {
   requestCar();
   if( rpm > 2000 ) { digitalWrite(YELLOW_LED, HIGH); }
   else             { digitalWrite(YELLOW_LED, LOW);  }
+  Serial.println(rpm);
   SerialBT.println(rpm);
   delay(200);
 }

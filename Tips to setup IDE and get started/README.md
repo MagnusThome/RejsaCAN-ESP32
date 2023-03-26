@@ -6,6 +6,8 @@ There are many CAN libraries that work with the ESP32, here are the ones I've fo
 
 - https://github.com/adafruit/arduino-CAN
 
+- https://github.com/timurrrr/arduino-CAN
+
 - https://github.com/collin80/esp32_can
   
 - https://github.com/sdp8483/ESP32-Arduino-CAN  

@@ -27,6 +27,11 @@ You can also look into these interesting ports for ESP32-S3 that might be useful
 https://github.com/pawelka/ESP32RET  
 
 https://github.com/pawelka/esp32_can
+
+This might be worth a look also  
+  
+https://github.com/Sheimy/TWAI_S3_LISEN  
+  
   
 # Install USB drivers (if necessary)
 

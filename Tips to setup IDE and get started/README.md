@@ -28,10 +28,12 @@ https://github.com/pawelka/ESP32RET
 
 https://github.com/pawelka/esp32_can
 
-This might be worth a look also  
+These might be worth a look also:  
   
 https://github.com/Sheimy/TWAI_S3_LISEN  
   
+https://github.com/halfroad/TWAIMessager  
+    
   
 # Install USB drivers (if necessary)
 

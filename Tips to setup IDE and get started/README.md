@@ -16,7 +16,13 @@ If you only want to access OBD2 data and not dive into the lower layer CAN bus t
 
 I'm sure there are more libraries out there. If you find something that has some special advantage feel free to email me so I can add it here
 
-Since the ESP32-S3 is slightly different when it comes to its CAN API compared to the older ESP32 these interesting ports for S3 might be very useful (if you have the S3 version of the RejsaCAN board). Thanks to Pawel for his ports!  
+# ESP32-S3  
+  
+Since the ESP32-S3 is slightly different when it comes to its CAN API compared to the older ESP32 the easiest way to code for it is to use Visual Code Studio and the Espressif toolchain by following these install instructions:  
+  
+https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md  
+
+You can also look into these interesting ports for ESP32-S3 that might be useful, thanks to Pawel for his ports!  
 
 https://github.com/pawelka/ESP32RET  
 

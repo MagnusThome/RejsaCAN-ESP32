@@ -35,6 +35,10 @@ These might be worth a look also:
 https://github.com/Sheimy/TWAI_S3_LISEN  
   
 https://github.com/halfroad/TWAIMessager  
+  
+I've made some examples that you can use in the Arduino IDE if you don't want to use Visual Code Studio:  
+  
+https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/examples (use the ESP32-S3 examples)  
     
   
 # Install USB drivers (if necessary)

@@ -11,6 +11,7 @@ File root;
 
 void setup() {
   Serial.begin(115200);
+  Serial.setTxTimeoutMs(0);    // Prevent overflows that slow down Serial.print()
   delay(200);
   SPI.begin( SCK, MISO, MOSI, CS );
 }

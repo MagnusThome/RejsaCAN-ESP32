@@ -55,10 +55,10 @@ void loop() {
 
 
 int CANsend (void) {
-  
   twai_message_t message;
   message.identifier = CAN_REQST_ID;
   message.extd = 0;
+  message.rtr = 0;
   message.data_length_code = 8;
   message.data[0] = 2;
   message.data[1] = 1;
@@ -81,10 +81,12 @@ void CANrecv (void) {
   digitalWrite(BLUE_LED, HIGH);
   delay(20);
   digitalWrite(BLUE_LED, LOW);
-  
+
   if (message.data[2]==CANPID_RPM) {
     uint8_t rpmOBDH = message.data[3];
     uint8_t rpmOBDL = message.data[4];
     rpm = (uint16_t) ((256*rpmOBDH) + rpmOBDL)/(float)4;
   }
 }
+
+

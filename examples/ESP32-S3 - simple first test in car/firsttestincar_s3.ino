@@ -32,7 +32,7 @@ void setup() {
   Serial.setTxTimeoutMs(0); // prevent slow serial prints if no usb
   pinMode(YELLOW_LED, OUTPUT);
   pinMode(BLUE_LED, OUTPUT);
-  pinMode(CAN_RS, INPUT);     // INPUT (high impedance) = slope control mode, OUTPUT = see next line
+  pinMode(CAN_RS, OUTPUT);    // INPUT (high impedance) = slope control mode, OUTPUT = see next line
   digitalWrite(CAN_RS, LOW);  // LOW = high speed mode, HIGH = low power mode (listen only)
   twai_general_config_t g_config = TWAI_GENERAL_CONFIG_DEFAULT((gpio_num_t)TX_PIN, (gpio_num_t)RX_PIN, TWAI_MODE_NORMAL);  // TWAI_MODE_NORMAL, TWAI_MODE_NO_ACK or TWAI_MODE_LISTEN_ONLY
   twai_timing_config_t t_config  = TWAI_TIMING_CONFIG_500KBITS();

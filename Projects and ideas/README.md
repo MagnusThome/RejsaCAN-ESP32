@@ -18,6 +18,13 @@ Just a first test of CAN info on the screen with ugly fonts ;-)  The wiring betw
 
 <img width=240 src=https://user-images.githubusercontent.com/32169384/138956181-5c421461-7e94-4a66-8d21-c0f54506565e.png><img width=350 src=https://user-images.githubusercontent.com/32169384/140426480-feba0d24-58bd-43de-91d2-1683e2c2daaf.jpg><img width=400 src=https://user-images.githubusercontent.com/32169384/140426471-28c3b613-0b05-4048-9e02-b0b7103bf6a1.jpg>
 
+# SLCAN
+  
+  Alexander Cus ported the SLCAN by mintynet www.github.com/mintynet/esp32-slcan to TWAI so it works with RejsaCAN ESP32-S3:
+    
+  www.github.com/Pacerino/TWAI_SLCAN   
+    
+    
 # Collect telemetry data from Racechrono live and export to display, internet or whatever
   
 An example how to use the "Monitor" API in Racechrono to get a live feed of any of all data Racechrono holds using a RejsaCAN board running on car's 12V (or any board based on an ESP32 or NRF52 MCU run on 5V) to get a live feed of data from Racechrono over BLE/Bluetooth. This example code is made for a commonly available ILI9341 based display simply connected via SPI. More info and code here https://github.com/MagnusThome/Racechrono-LIVE-telemetry-data-export

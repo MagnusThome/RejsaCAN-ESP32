@@ -18,11 +18,13 @@ Just a first test of CAN info on the screen with ugly fonts ;-)  The wiring betw
 
 <img width=240 src=https://user-images.githubusercontent.com/32169384/138956181-5c421461-7e94-4a66-8d21-c0f54506565e.png><img width=350 src=https://user-images.githubusercontent.com/32169384/140426480-feba0d24-58bd-43de-91d2-1683e2c2daaf.jpg><img width=400 src=https://user-images.githubusercontent.com/32169384/140426471-28c3b613-0b05-4048-9e02-b0b7103bf6a1.jpg>
 
-# SLCAN
+# SLCAN / CANUSB
   
   Alexander Cus ported the SLCAN by mintynet www.github.com/mintynet/esp32-slcan to TWAI so it works with RejsaCAN ESP32-S3:
     
-  www.github.com/Pacerino/TWAI_SLCAN   
+  www.github.com/Pacerino/TWAI_SLCAN  
+    
+  Here's a lot of info on SLCAN / USBCAN in a PDF: www.can232.com/docs/canusb_manual.pdf
     
     
 # Collect telemetry data from Racechrono live and export to display, internet or whatever

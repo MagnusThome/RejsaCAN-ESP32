@@ -1,8 +1,9 @@
 # Projects ideas and tips
 
-I'll add fun stuff here... 
-
-
+I add fun stuff on this page from time to time... 
+  
+A superb list of resources: https://github.com/iDoka/awesome-canbus  
+  
 # Alarm
 
 A beeper that only takes a few milliamperes is driven directly from one of the ESP32 pins. Alarm set on over rev in this case but can of course be oil and/or water temperatures, oil pressure (if you know the PID) or anything you want.

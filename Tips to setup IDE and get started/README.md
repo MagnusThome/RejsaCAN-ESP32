@@ -25,7 +25,11 @@ Since the ESP32-S3 is slightly different when it comes to its CAN API compared t
   
 https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md  
 
-But if you want to use the Arduino IDE this library is now supposed to support the S3
+I've made some examples that you can use in the Arduino IDE with just the libraries that come with the board installation if you don't want to use Visual Code Studio:   
+  
+https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/examples (use the ESP32-S3 examples)  
+    
+But if you want to use the Arduino IDE and a known Arduino library this one is now supposed to support the S3
   
 https://github.com/collin80/esp32_can  
   
@@ -41,9 +45,6 @@ https://github.com/Sheimy/TWAI_S3_LISEN
   
 https://github.com/halfroad/TWAIMessager  
   
-I've made some examples that you can use in the Arduino IDE with just the libraries that come with the board installation if you don't want to use Visual Code Studio:   
-https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/examples (use the ESP32-S3 examples)  
-    
   
 # Install USB drivers (if necessary)
 

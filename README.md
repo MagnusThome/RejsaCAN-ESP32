@@ -5,10 +5,15 @@ RejsaCAN is a 3x5 centimeter small ESP32 or ESP32-S3 based board aimed at car us
 There is no bespoke code for the board apart from pin definitions, it's just a piece of universal hardware, but by using easy to use open source Arduino libraries it can be made to interface not only to various CAN buses, Network/Wifi and Bluetooth but to numerous sensors and other peripherals using the ESP32's built in interfaces.
 
 If you think the board would fit your project you can give me a holler at magnust@gmail.com, I tend to always have some extra boards. I get small batches made at JLCPCB.
+  
+### Nice review and get started guide at cnx-software  
+  
+https://www.cnx-software.com/2023/05/12/rejsacan-esp32-s3-can-bus-board-arduino-car-hacking/  
+  
+### Navigate  
+  
+- <a href=./>Main page (this page)</a>  
  
-  
-### Check out these sub pages after reading this page 
-  
 - <a href=Projects%20and%20ideas>Fun projects and ideas</a>  
  
 - <a href=Schematics>Schematics</a>

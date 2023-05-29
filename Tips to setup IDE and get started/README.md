@@ -45,6 +45,13 @@ https://github.com/Sheimy/TWAI_S3_LISEN
   
 https://github.com/halfroad/TWAIMessager  
   
+A great video showing how to use the S3's built in USB (and separate UART) in different modes, CDC/OTG:  
+  
+https://www.youtube.com/watch?v=hJSBTFsOnoA
+    
+Recommended settings in the Arduino IDE for the S3:  
+  
+![Arduino IDE settings for ESP32-S3-WROOM-1-N16R8](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/6475dd75-a23d-408e-91ca-ef51d43b3c31)  
   
 # Install USB drivers (if necessary)
 

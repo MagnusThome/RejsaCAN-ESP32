@@ -45,7 +45,7 @@ ESP32-S3 https://github.com/MagnusThome/RejsaCAN-ESP32/blob/main/v3.2%20pinout.h
 
 click to get full size schematics
 
-<a href=https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/Schematics><img src=Schematics/Schematic_RejsaCAN%20v3.2.png></a>
+<a href=https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/Schematics><img src=Schematics/Schematic_RejsaCAN%20v3.4.png></a>
 
 ## The board is based around an ESP32 or ESP32-S3 chip
 

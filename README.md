@@ -142,7 +142,7 @@ There is also a 3,3V power output pad in the row of connection pads on the board
 
 ### SD card reader
 
-Optionally one can mount an SD micro card reader on the rear of the pcb. It is connected to SPI and select SD_CARD (GPIO45)
+The ESP32-S3 has an SD micro card reader on the rear of the pcb. It is connected to SPI and select SD_CARD (GPIO45)
 
 ### Other general IO pins
   

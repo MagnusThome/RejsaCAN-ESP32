@@ -234,7 +234,9 @@ Check out 3D printable housings in the <a href=3dprint>the 3D-print directory</a
 ![transparent-case-1](https://user-images.githubusercontent.com/32169384/140562825-fa751003-fabd-465a-9738-fe34dc1a9d12.jpg)
 
 ![small-housing(0)](https://user-images.githubusercontent.com/32169384/138956886-f83ddebf-1960-4e5f-990a-a6d5ac4cba14.jpg)
- 
+  
+![IMG_20230926_152918](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/d18ed917-d1ce-423b-a9eb-53d53fba226a)
+
  
 ## Connecting the board
 

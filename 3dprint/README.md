@@ -53,3 +53,5 @@ M2 screws and inserts
 ![small-housing(3)](https://user-images.githubusercontent.com/32169384/138956928-8b44a92c-3336-4f66-8bfb-3b2ae9432360.jpg)
 
 ![small-housing(2)](https://user-images.githubusercontent.com/32169384/138956945-97b0403a-e5a8-471f-bc6c-01ba239a281d.jpg)
+
+![IMG_20230926_152918](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/d7f06134-aefb-4829-9af6-b793f5d9f76e)

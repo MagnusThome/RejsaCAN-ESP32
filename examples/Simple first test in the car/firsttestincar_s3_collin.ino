@@ -9,8 +9,6 @@ Good for an initial test in the car to check that the board and the car's OBD co
 
 Comment out everything about mcp2517fd and mcp2515 in the /esp32_can/src/ esp32_can.cpp and esp32_can.h library files
 
-And check this https://github.com/collin80/esp32_can/issues/54 for ESP32-S3
- 
 --------------------
 */
 

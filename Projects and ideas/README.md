@@ -49,6 +49,8 @@ I'm using Techstream (the software the garage uses to check up on the car) to as
 
 # Using RejsaCAN as a sniffer interface with CAN software tools
 
+** Support for ESP32-S3 here https://github.com/MagnusThome/ESP32S3RET **
+
 I installed ESP32RET on the board and hooked it up to the CAN software tool SavvyCAN on my PC
 
 At https://github.com/collin80/ESP32RET you get the code to put on the ESP32 so it runs as a hardware interface between the car and SavvyCAN on the PC. You can run it over USB, Bluetooth or Wifi. 

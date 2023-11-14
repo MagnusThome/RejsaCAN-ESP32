@@ -56,11 +56,7 @@ I installed ESP32RET on the board and hooked it up to the CAN software tool Savv
 At https://github.com/collin80/ESP32RET you get the code to put on the ESP32 so it runs as a hardware interface between the car and SavvyCAN on the PC. You can run it over USB, Bluetooth or Wifi. 
 
 www.savvycan.com
-
-
-Since the ESP32-S3 is slightly different when it comes to its CAN API compared to the older ESP32 these interesting ports for S3 might be very useful (if you have the S3 version of the RejsaCAN board). Thanks to Pawel for his ports!  
-https://github.com/pawelka/ESP32RET  
-https://github.com/pawelka/esp32_can  
+ 
   
 ## ESP32RET menu
   

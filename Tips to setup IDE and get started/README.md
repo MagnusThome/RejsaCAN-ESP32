@@ -29,18 +29,24 @@ I've made some examples that you can use in the Arduino IDE with just the librar
   
 https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/examples (use the ESP32-S3 examples)  
     
-But if you want to use the Arduino IDE and a known Arduino library this one is now supposed to support the S3
+But if you want to use the Arduino IDE and a known Arduino library this one is now supporting the S3
   
 https://github.com/collin80/esp32_can  
+
+I added a simplified OBD2 library for the above CAN library to make requesting standard OBD2 data really easy. It is a fork and rewrite of the OBD2 library written by sandeepmistry  
+
+https://github.com/MagnusThome/esp32_obd2  
+  
+I also did a quick rewrite/hack of ESP32RET to support the newer ESP32-S3 chip (that does not have old school serial BT)  
+  
+https://github.com/MagnusThome/ESP32S3RET
   
 You can also look into these interesting ports for ESP32-S3 that might be useful, thanks to Pawel for his ports!  
   
 https://github.com/pawelka/ESP32RET  
 
 https://github.com/pawelka/esp32_can
-
-These might be worth a look also:  
-  
+ 
 https://github.com/Sheimy/TWAI_S3_LISEN  
   
 https://github.com/halfroad/TWAIMessager  

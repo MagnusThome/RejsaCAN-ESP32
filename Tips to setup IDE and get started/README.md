@@ -36,7 +36,7 @@ I also did a quick rewrite/hack of ESP32RET to support the newer ESP32-S3 chip (
   
 https://github.com/MagnusThome/ESP32S3RET
   
-You can also look into these interesting ports for ESP32-S3 that might be useful, thanks to Pawel for his ports!  
+You can also look into these interesting ports for ESP32-S3 that might be useful:  
 
 https://github.com/pawelka/ESP32RET  
 https://github.com/pawelka/esp32_can  

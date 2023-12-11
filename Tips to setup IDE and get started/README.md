@@ -19,7 +19,7 @@ https://github.com/sandeepmistry/arduino-OBD2
 
 I'm sure there are more libraries out there. If you find something that has some special advantage feel free to email me so I can add it here
 
-# ESP32-S3  
+# ESP32-S3, -C6 and other newer variants (TWAI)
   
 Since the ESP32-S3 is slightly different when it comes to its CAN API compared to the older ESP32 one way to code for it is to use Visual Code Studio and the Espressif toolchain by following these install instructions: https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md  
 

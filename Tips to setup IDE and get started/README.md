@@ -21,38 +21,23 @@ I'm sure there are more libraries out there. If you find something that has some
 
 # ESP32-S3  
   
-Since the ESP32-S3 is slightly different when it comes to its CAN API compared to the older ESP32 one way to code for it is to use Visual Code Studio and the Espressif toolchain by following these install instructions:  
-  
-https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md  
+Since the ESP32-S3 is slightly different when it comes to its CAN API compared to the older ESP32 one way to code for it is to use Visual Code Studio and the Espressif toolchain by following these install instructions: https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/install.md  
 
-I've made some examples that you can use in the Arduino IDE with just the libraries that come with the board installation if you don't want to use Visual Code Studio:   
-  
-https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/examples (use the ESP32-S3 examples)  
+I've made some examples that you can use in the Arduino IDE with just the libraries that come with the board installation if you don't want to use Visual Code Studio: https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/examples (use the ESP32-S3 examples)  
     
-But if you want to use the Arduino IDE and a known Arduino library this one is now supporting the S3
-  
-https://github.com/collin80/esp32_can  
+But if you want to use the Arduino IDE and a known Arduino library this one is now supporting the S3: https://github.com/collin80/esp32_can  
 
-I added a simplified OBD2 library for the above CAN library to make requesting standard OBD2 data really easy. It is a fork and rewrite of the OBD2 library written by sandeepmistry  
-
-https://github.com/MagnusThome/esp32_obd2  
+I added a simplified OBD2 library for the above CAN library to make requesting standard OBD2 data really easy. It is a fork and rewrite of the OBD2 library written by sandeepmistry https://github.com/MagnusThome/esp32_obd2  
   
-I also did a quick rewrite/hack of ESP32RET to support the newer ESP32-S3 chip (that does not have old school serial BT)  
-  
-https://github.com/MagnusThome/ESP32S3RET
+I also did a quick rewrite/hack of ESP32RET to support the newer ESP32-S3 chip (that does not have old school serial BT) https://github.com/MagnusThome/ESP32S3RET
   
 You can also look into these interesting ports for ESP32-S3 that might be useful, thanks to Pawel for his ports!  
-  
 https://github.com/pawelka/ESP32RET  
-
 https://github.com/pawelka/esp32_can
- 
 https://github.com/Sheimy/TWAI_S3_LISEN  
-  
 https://github.com/halfroad/TWAIMessager  
   
 A great video showing how to use the S3's built in USB (and separate UART) in different modes, CDC/OTG:  
-  
 https://www.youtube.com/watch?v=hJSBTFsOnoA
     
 Recommended settings in the Arduino IDE for the S3:  

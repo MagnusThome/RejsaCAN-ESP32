@@ -36,9 +36,9 @@ https://www.cnx-software.com/2023/05/12/rejsacan-esp32-s3-can-bus-board-arduino-
 See complete pinout.h 
   
 ESP32    https://github.com/MagnusThome/RejsaCAN-ESP32/blob/main/v2.4%20pinout.h  
-ESP32-S3 https://github.com/MagnusThome/RejsaCAN-ESP32/blob/main/v3.2%20pinout.h   
-  
-![Screenshot 2022-10-06 202107](https://user-images.githubusercontent.com/32169384/194756859-7d9f5b9e-a82b-44cf-994c-bd47fe5fef6c.png)
+ESP32-S3 https://github.com/MagnusThome/RejsaCAN-ESP32/blob/main/v3.2%20pinout.h  
+
+![Screenshot 2023-12-14 071053](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/593e18e5-8c5b-468e-a6dd-de081ac54dbb)
    
   
 ## Schematics

@@ -121,6 +121,8 @@ https://github.com/Switchleg1/esp32-isotp-ble-bridge (fork)
   
 This one acts like a fake car replying to OBD2 requests. The code running on it changes the rpm and other data in sequence.  
 
+https://github.com/MagnusThome/ESP32_OBD2_Emulator  
+  
 ![reversed OBD2](https://user-images.githubusercontent.com/32169384/198852454-1bac6b41-181c-4d72-8180-a7df37f1ad45.jpg)
 
 # A cool web based OBD2 project by "EQMOD"  

@@ -122,7 +122,15 @@ https://github.com/Switchleg1/esp32-isotp-ble-bridge (fork)
 This one acts like a fake car replying to OBD2 requests. The code running on it changes the rpm and other data in sequence.  
 
 ![reversed OBD2](https://user-images.githubusercontent.com/32169384/198852454-1bac6b41-181c-4d72-8180-a7df37f1ad45.jpg)
+
+# A cool web based OBD2 project by "EQMOD"  
+
+https://github.com/EQMOD/REJSACAN_OBDWEB
   
-  <hr>
+![290242772-40da870d-5916-4593-a670-4dd24b201a21](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/b747a006-8473-463c-a92d-a1ada785935c)  
+  
+![290242815-92e0deb7-28c5-4523-9fd6-6baa8f7f16f6](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/ea24ebae-9c1b-4104-81dc-76e3bbc4563f)  
+   
+ <hr>
 
 

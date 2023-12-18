@@ -38,7 +38,7 @@ See complete pinout.h
 ESP32    https://github.com/MagnusThome/RejsaCAN-ESP32/blob/main/v2.4%20pinout.h  
 ESP32-S3 https://github.com/MagnusThome/RejsaCAN-ESP32/blob/main/v3.2%20pinout.h  
 
-![Screenshot 2023-12-14 071053](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/593e18e5-8c5b-468e-a6dd-de081ac54dbb)
+![S3 rear](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/c748ce53-0b77-4376-b636-6cdc1cb92bef)
    
   
 ## Schematics

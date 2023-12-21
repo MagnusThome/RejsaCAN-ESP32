@@ -1,4 +1,4 @@
-# Housings
+# RejsaCAN v3.x ESP32-S3
 
 Three housings done so far:
 

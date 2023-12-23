@@ -1,5 +1,6 @@
 # Example how to use both two CAN bus ports on an ESP32-C6
-  
+
+In this example:  
 - CAN0 acts like an external OBD2 device requesting OBD2 rpm data from a car
 - CAN1 acts like a car replying to OBD2 requests with dummy data
   

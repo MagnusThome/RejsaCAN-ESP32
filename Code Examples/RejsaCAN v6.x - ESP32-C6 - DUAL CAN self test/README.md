@@ -4,7 +4,7 @@ In this example:
 - CAN0 acts like an external OBD2 device requesting OBD2 rpm data from a car
 - CAN1 acts like a car replying to OBD2 requests with dummy data
   
-You can test either CAN bus separately, CAN0 connected to a car or CAN1 connected to some external OBD2 device. Or connect the two buses together so CAN0 get its replies from CAN1.  
+You can test either of the two CAN buses separately, CAN0 connected to a car or CAN1 connected to some external OBD2 device. Or connect the two buses together so CAN0 get its replies from CAN1.  
   
 If you do a self test with a short cable as the CAN bus between two transceivers don't forget to have 120ohm termination resistors activated (on a RejsaCAN they are activated/connected by default unless you cut the pcb trace)
 

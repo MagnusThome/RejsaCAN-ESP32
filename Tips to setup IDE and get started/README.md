@@ -24,7 +24,7 @@ https://github.com/espressif/vscode-esp-idf-extension/blob/master/docs/tutorial/
 
 I've made some examples that you can use in the Arduino IDE with just the libraries that come with the board installation if you don't want to use Visual Code Studio:  
   
-https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/examples (use the ESP32-S3 examples)  
+https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/Code%20Examples (use the ESP32-S3 examples)  
     
 But if you want to use the Arduino IDE and a known Arduino library this one is now supporting the S3: https://github.com/collin80/esp32_can  
 

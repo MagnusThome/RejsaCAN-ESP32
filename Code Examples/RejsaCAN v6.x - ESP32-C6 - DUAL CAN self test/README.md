@@ -4,7 +4,7 @@
 - CAN1 acts like a car replying to OBD2 requests with dummy data
   
 You can test either CAN bus separately, CAN0 connected to a car or CAN1 connected to some external OBD2 device
-or connect the two buses together so CAN0 get its repleies from CAN1  
+or connect the two buses together so CAN0 get its replies from CAN1  
   
 Don't forget to have the 120ohm termination resistors activated (they are activated/connected by default unless you cut the pcb traces)
 

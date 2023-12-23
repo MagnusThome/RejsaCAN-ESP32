@@ -13,6 +13,8 @@ You need espressif's 5.2 toolchain or newer since that has the twai v2 update (t
 ##  
 ![self test](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/38335e42-193e-4efd-a700-a233cd2ab3ab)  
   
+![self test rear](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/16df5f5f-d8aa-43fe-ae85-922f11ce6056)
+  
 ![292323542-6e29e880-1655-4fed-8590-ffe28d65e589](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/99e4d895-7e23-49a0-8b14-b76a3e1e294e)
   
 ![screw terminal 4](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/38a3c7ae-c115-42aa-ae2a-c2d264c29d05)

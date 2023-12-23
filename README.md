@@ -18,7 +18,7 @@ https://www.cnx-software.com/2023/05/12/rejsacan-esp32-s3-can-bus-board-arduino-
  
 - <a href=Schematics>Schematics</a>
 
-- <a href=Examples>Code examples</a>
+- <a href=Code%20Examples>Code examples</a>
  
 - <a href=Tips%20to%20setup%20IDE%20and%20get%20started>Links to some different CAN libraries and tips to get started</a>  
   

@@ -6,6 +6,7 @@
 #include "esp_err.h"
 #include "esp_log.h"
 #include "driver/twai.h"
+#include "led_strip.h"
 
 
 
@@ -13,14 +14,18 @@
 #define CAN0_TX       3
 #define CAN1_RX       20
 #define CAN1_TX       21
+#define RGB_LED       8
+
 #define CANPID_RPM    0x0C
 #define CAN_REQST_ID  0x7DF 
 #define CAN_REPLY_ID  0x7E8
+
 #define EXAMPLE_TAG   "TWAI v2"
 
 
 static twai_handle_t twai_bus_0;
 static twai_handle_t twai_bus_1;
+static led_strip_handle_t rgb_led;
 static uint16_t rpm;  
 
 
@@ -41,6 +46,8 @@ static void send_request (void) {
   ESP_LOGI(EXAMPLE_TAG, "Sending request for 0x%02X ... ", tx_message.data[2]);
   twai_transmit_v2(twai_bus_0, &tx_message, 0); 
   ESP_LOGI(EXAMPLE_TAG, "done");
+  led_strip_set_pixel(rgb_led, 0, 100, 0, 0);
+  led_strip_refresh(rgb_led);
 }
 
 static void receive_reply (void) {
@@ -52,6 +59,8 @@ static void receive_reply (void) {
       uint8_t rpmOBDL = rx_message.data[4];
       rpm = (uint16_t) ((256*rpmOBDH) + rpmOBDL)/(float)4;
       ESP_LOGI(EXAMPLE_TAG, "rpm %d", rpm);
+      led_strip_set_pixel(rgb_led, 0, 0, 0, rpm/256);
+      led_strip_refresh(rgb_led);
     }
   }
 }
@@ -78,6 +87,8 @@ void obd2_reply (void) {
     tx_message.data[7] = 0xAA; 
     twai_transmit_v2(twai_bus_1, &tx_message, 0); 
     dummy++;
+    led_strip_set_pixel(rgb_led, 0, 0, 100, 0);
+    led_strip_refresh(rgb_led);
   }
 }
 
@@ -105,10 +116,17 @@ void app_main(void)
   ESP_ERROR_CHECK(twai_start_v2(twai_bus_1));
   ESP_LOGI(EXAMPLE_TAG, "Driver 1 started");
 
+  led_strip_config_t strip_config = { .strip_gpio_num = RGB_LED, .max_leds = 1, };
+  led_strip_rmt_config_t rmt_config = {};
+  led_strip_new_rmt_device(&strip_config, &rmt_config, &rgb_led);
+  led_strip_clear(rgb_led);
+
   while (true) {
     send_request();
+    vTaskDelay(pdMS_TO_TICKS(50));   
     obd2_reply();
+    vTaskDelay(pdMS_TO_TICKS(50));   
     receive_reply();
-    vTaskDelay(pdMS_TO_TICKS(200));   
+    vTaskDelay(pdMS_TO_TICKS(500));   
   }
 }

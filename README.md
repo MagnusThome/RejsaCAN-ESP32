@@ -115,10 +115,29 @@ When the engine is running and charging the car battery the incoming voltage use
    
 Either one can just let the board turn on and off with the auto shutdown hardware circuitry straight out of the box or you can run it in combination with software. For example, when the car voltage rises and the board boots you can pull FORCE_ON high to make sure the board keeps running even if there is a drop of voltage, for example due to red light start/stop functionality in the car or modern cars turning down battery charging even when driving. Then you just monitor either the threshold with SENSE_V_DIG or set your own thresholds using SENSE_V_ANA and theh add your own timer delays or whatever. And of course, you can use CAN to check if the car is stopped in a multitude of ways, rpm, speed, gear...
 
+### Fine tuning on/off voltage thresholds  
 
+If your car has a more modern battery type than the old acid/led type or if it does the battery charging slightly different you might want to adjust the on/off voltage thresholds. If you keep R5 as 33k and adjust R4 you can get these switch-on and -off voltages:
+
+| **R4** | **Turn on at** | **Turn off at** |
+|-------:|---------------:|----------------:|
+| 91k    | 13,7V           | 13,0V            |
+| 90k    | 13,6V           | 12,9V            |
+| 89k    | 13,5V           | 12,8V            |
+| 88k    | 13,4V           | 12,7V            |
+| 87k    | 14,3V           | 12,6V            |
+| 86k    | 13,2V           | 12,5V            |
+| 85k    | 13,1V           | 12,4V            |
+
+  
+### 24V vehicles
+
+For 24V vehicles you can change the on/off voltage threshold by soldering on a resistor at the empty "ADJUST" position. I don't know what voltages one can expect in these vehicles while charging and not chargin the battery so I have no idea what an appropriate resistor value should be there. 
 
    
-![matrix power scenarios](https://user-images.githubusercontent.com/32169384/180321585-c3b46872-c4b4-4583-bcea-3c7e8c0705bd.gif)
+![matrix power scenarios](https://user-images.githubusercontent.com/32169384/180321585-c3b46872-c4b4-4583-bcea-3c7e8c0705bd.gif)  
+
+  
 
 
 ## "Good to haves"

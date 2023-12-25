@@ -6,7 +6,7 @@
 RGB LED:
  - Red: request sent from CAN0  
  - Green: reply sent from CAN1
- - Blue intensity: rpm data recieved at CAN0
+ - Blue: rpm data recieved at CAN0. Brightness = rpm value
  
 
 */

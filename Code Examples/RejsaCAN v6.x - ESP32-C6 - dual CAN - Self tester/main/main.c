@@ -1,3 +1,15 @@
+/*
+
+- CAN0 acts like an external OBD2 device requesting OBD2 rpm data from a car
+- CAN1 acts like a car replying to OBD2 requests with dummy data
+
+RGB LED:
+ - Red: request sent from CAN0  
+ - Green: reply sent from CAN1
+ - Blue intensity: rpm data recieved at CAN0
+ 
+
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include "freertos/FreeRTOS.h"

@@ -1,6 +1,6 @@
 # RejsaCAN
 
-RejsaCAN is a 3x5 centimeter small ESP32 or ESP32-S3 based board aimed at car use that I put together for my own use in my assorted crazy car projects. The board has an onboard CAN interface and can be powered directly from the car (5-15V). It also includes the option to auto shutdown so not to drain the car battery. This is especially important if you have it plugged in to a car OBD2 connector since these always supply constant 12V power to the connector, even when the car is parked and turned off.
+RejsaCAN is a 3x5 centimetre small ESP32 or ESP32-S3 based board aimed at car use that I put together for my own use in my assorted crazy car projects. The board has an onboard CAN interface and can be powered directly from the car (5-15V). It also includes the option to auto shutdown so not to drain the car battery. This is especially important if you have it plugged in to a car OBD2 connector since these always supply constant 12V power to the connector, even when the car is parked and turned off.
 
 There is no bespoke code for the board apart from pin definitions, it's just a piece of universal hardware, but by using easy to use open source Arduino libraries it can be made to interface not only to various CAN buses, Network/Wifi and Bluetooth but to numerous sensors and other peripherals using the ESP32's built in interfaces.
 
@@ -113,7 +113,7 @@ When the engine is running and charging the car battery the incoming voltage use
 - The CAN data input (CAN_RX GPIO13) can also be used to trigger waking up the board from sleep as soon as CAN traffic is detected.
 
    
-Either one can just let the board turn on and off with the auto shutdown hardware circuitry straight out of the box or you can run it in combination with software. For example, when the car voltage rises and the board boots you can pull FORCE_ON high to make sure the board keeps running even if there is a drop of voltage, for example due to red light start/stop functionality in the car or modern cars turning down battery charging even when driving. Then you just monitor either the threshold with SENSE_V_DIG or set your own thresholds using SENSE_V_ANA and theh add your own timer delays or whatever. And of course, you can use CAN to check if the car is stopped in a multitude of ways, rpm, speed, gear...
+Either one can just let the board turn on and off with the auto shutdown hardware circuitry straight out of the box or you can run it in combination with software. For example, when the car voltage rises and the board boots you can pull FORCE_ON high to make sure the board keeps running even if there is a drop of voltage, for example due to red light start/stop functionality in the car or modern cars turning down battery charging even when driving. Then you just monitor either the threshold with SENSE_V_DIG or set your own thresholds using SENSE_V_ANA and then add your own timer delays or whatever. And of course, you can use CAN to check if the car is stopped in a multitude of ways, rpm, speed, gear...
 
 ### Fine tuning on/off voltage thresholds  
 
@@ -132,7 +132,7 @@ If your car has a more modern battery type than the old acid/led type or if it d
   
 ### 24V vehicles
 
-For 24V vehicles you can change the on/off voltage threshold by soldering on a resistor at the empty "ADJUST" position. I don't know what voltages one can expect in these vehicles while charging and not chargin the battery so I have no idea what an appropriate resistor value should be there. 
+For 24V vehicles you can change the on/off voltage threshold by soldering on a resistor at the empty "ADJUST" position. I don't know what voltages one can expect in these vehicles while charging and not charging the battery so I have no idea what an appropriate resistor value should be there. 
 
    
 ![matrix power scenarios](https://user-images.githubusercontent.com/32169384/180321585-c3b46872-c4b4-4583-bcea-3c7e8c0705bd.gif)  
@@ -210,7 +210,7 @@ To enable JTAG mode you need to pull the JTAG_ENABLE pad, found on the rear of t
 
 ### Board version
 
-On v3.x boards you can programatically check what version of the board your code is running on and adjust accordingly for the small changes that have been made on the boards. Set GPIO4 and GPIO5 to input pullup and check if the inputs are high or low.
+On v3.x boards you can programmatically check what version of the board your code is running on and adjust accordingly for the small changes that have been made on the boards. Set GPIO4 and GPIO5 to input pullup and check if the inputs are high or low.
 
 - v3.1 = GPIO4 low and GPIO5 high  
 - v3.2 = GPIO4 high and GPIO5 low  
@@ -223,7 +223,7 @@ On v3.x boards you can programatically check what version of the board your code
 - Added better over voltage protection on power from the car
 - Upgraded over voltage protection on USB power
 - Enabling ALWAYS_ON is now done by shorting two clearly marked pads on the rear of the board
-- An added emtpy spot for resistor R19 ADJUST which can be added to lower the start/stop voltage threshold for the board
+- An added empty spot for resistor R19 ADJUST which can be added to lower the start/stop voltage threshold for the board
 - For panic situations when you need more pins ;-) the GPIO6, GPIO7, GPIO15 and GPIO16 are available as unmarked pads but only on the rear of the board
   
 #### From v2.3 to v.2.4

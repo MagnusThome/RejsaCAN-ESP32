@@ -8,7 +8,6 @@
 #define CAN_RS        38
 
 
-
 void setup() {
   Serial.begin(USB_SPEED);
   Serial.setTxTimeoutMs(0);   // prevent slow timeouts

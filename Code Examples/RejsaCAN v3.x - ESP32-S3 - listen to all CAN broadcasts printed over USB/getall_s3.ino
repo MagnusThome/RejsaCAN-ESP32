@@ -25,7 +25,7 @@ void setup() {
 void loop() {
   twai_message_t message;
   
-  if (twai_receive(&message, 0) == ESP_OK) {
+  if (twai_receive(&message, pdMS_TO_TICKS(1)) == ESP_OK) {
     Serial.print("0x");
     Serial.print(message.identifier, HEX);
     Serial.print("\t");

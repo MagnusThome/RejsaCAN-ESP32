@@ -61,6 +61,8 @@ M2 screws and inserts
 ![RejsaCAN v6 0](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/6549e4d6-8088-446a-bb26-6ddcf123da19)  
 
 ![comparison](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/59629565-2a56-41a3-a733-1d4595240011)  
+
+![sandwich interconnect board](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/b37ceca2-ab42-4463-a3ad-570ed17a1737)
   
 ![screw terminal 1](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/6e29e880-1655-4fed-8590-ffe28d65e589)  
   

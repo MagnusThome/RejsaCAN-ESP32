@@ -146,7 +146,7 @@ For 24V vehicles you can change the on/off voltage threshold by soldering on a r
 
 - Green power LED that shows if the board is turned on or not. If using the auto shutdown the green LED (and the board) will be turned on and off depending on if the car voltage is over or under the auto start/shutdown threshold.
 
-- Blue LED to use for anything you fancy (BLUE_LED GPIO10)
+- Blue LED to use for anything you fancy (BLUE_LED GPIO10) (this one is red on some boards due to the blue led being out of stock lately)
 - Yellow LED to use for anything (YELLOW_LED GPIO11)
 
 ### Extra UART RX/TX
@@ -181,7 +181,7 @@ General  (GPIO48)
 General  (GPIO47)  
 High driver switched output max 500mA  (GPIO21)  
 
-On the rear side of the pcb you can get to a few extra pins but it's not possible so solder pin headers here due to the esp-module being on the other side of the board where these pads are.  
+On the rear side of the pcb you can get to a few extra pins but it's not possible to solder pin headers here due to the esp-module being on the other side of the board where these pads are.  
   
 General  (GPIO6)  (A5)  
 General  (GPIO7)  (A6)  

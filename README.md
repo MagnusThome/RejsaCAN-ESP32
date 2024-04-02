@@ -1,6 +1,6 @@
 # RejsaCAN
 
-RejsaCAN is a 3x5 centimetre small ESP32 or ESP32-S3 based board aimed at car use that I put together for my own use in my assorted crazy car projects. The board has an onboard CAN interface and can be powered directly from the car (5-15V). It also includes the option to auto shutdown so not to drain the car battery. This is especially important if you have it plugged in to a car OBD2 connector since these always supply constant 12V power to the connector, even when the car is parked and turned off.
+RejsaCAN is a 3x5 centimetre small ESP32 or ESP32-S3 based board aimed at car use that I put together for my own use in my assorted crazy car projects. The board has an onboard CAN interface and can be powered directly from the car (5-24V). It also includes the option to auto shutdown so not to drain the car battery. This is especially important if you have it plugged in to a car OBD2 connector since these always supply constant 12V power to the connector, even when the car is parked and turned off.
 
 There is no bespoke code for the board apart from pin definitions, it's just a piece of universal hardware, but by using easy to use open source Arduino libraries it can be made to interface not only to various CAN buses, Network/Wifi and Bluetooth but to numerous sensors and other peripherals using the ESP32's built in interfaces.
 

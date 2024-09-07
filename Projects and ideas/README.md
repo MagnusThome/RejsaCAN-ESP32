@@ -39,7 +39,11 @@ www.youtube.com/watch?v=f61Pw1ZjPyw
 
 https://github.com/timurrrr/arduino-RaceChrono
 
+# Wican ported to also support RejsaCAN  
+The very comprehensive Wican project has been ported by Pawel to also support RejsaCAN boards!  
 
+https://github.com/pawelka/wican-fw  
+  
 # CAN log all to Serial over USB and Bluetooth
 
 I'm using Techstream (the software the garage uses to check up on the car) to ask for different non standard OBD2 data over the OBD2 port (steering angle, oil pressure, brake pressure...) and simultaneously log all the traffic with this RejsaCAN in the picture below, logging both the requests from Techstream and the replies from the car. Simple <a href=https://github.com/MagnusThome/RejsaCAN-ESP32/blob/main/Code%20Examples/>Arduino code for this is in the examples directory</a>. I can either save all data over USB to my PC or save to a log file on my mobile phone over Bluetooth using for example this app https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en&gl=US

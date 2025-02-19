@@ -49,7 +49,7 @@ click to get full schematics
 
 ## The board is based around an ESP32 or ESP32-S3 chip
 
-The ESP3232-S3 is a very nice and capable chip that supports a mind boggling range of different communication standards and hardware auxiliaries making it a very versatile "hub" for shuffling data between different systems.  
+The ESP32-S3 is a very nice and capable chip that supports a mind boggling range of different communication standards and hardware auxiliaries making it a very versatile "hub" for shuffling data between different systems.  
 
 - SPI bus
 - I2C bus

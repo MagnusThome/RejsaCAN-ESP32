@@ -1,4 +1,4 @@
-# RejsaCAN v3.x ESP32-S3
+# RejsaCAN v3.x (ESP32-S3 based board)
 
 ![IMG_20230101_144314](https://user-images.githubusercontent.com/32169384/210176532-8d54fdb8-3f13-40ab-a625-1747000f7ba4.jpg)
   

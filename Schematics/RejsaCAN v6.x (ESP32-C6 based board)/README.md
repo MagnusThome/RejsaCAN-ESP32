@@ -1,4 +1,4 @@
-# RejsaCAN v6.0 dual CAN with ESP32-C6  
+# RejsaCAN v6.x dual CAN  (ESP32-C6 based board)
 
 ![sandwich interconnect board](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/b37ceca2-ab42-4463-a3ad-570ed17a1737)
   

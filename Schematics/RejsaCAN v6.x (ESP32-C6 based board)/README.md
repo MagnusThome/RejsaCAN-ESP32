@@ -10,9 +10,9 @@
   
 ![screw terminal 4](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/f4946be6-e599-49ab-9615-256a0045a8f3) 
 
-![RejsaCAN v6 0](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/6549e4d6-8088-446a-bb26-6ddcf123da19)  
-
 ![comparison](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/59629565-2a56-41a3-a733-1d4595240011)  
+
+![RejsaCAN v6 0](https://github.com/MagnusThome/RejsaCAN-ESP32/assets/32169384/6549e4d6-8088-446a-bb26-6ddcf123da19)  
 
 
 

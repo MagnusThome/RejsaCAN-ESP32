@@ -4,6 +4,7 @@
 <img src=https://user-images.githubusercontent.com/32169384/198615061-f654371a-f9ef-4fa2-b6b6-4614f3363b25.jpg> 
 <img src=https://user-images.githubusercontent.com/32169384/198619672-9e8ac8cd-0c09-4952-b50c-4595206e3b99.jpg>
 
+Alternative sandwich mounted OBD2 connector board
   
 <img src=https://user-images.githubusercontent.com/32169384/198616300-52a047a9-5852-4b70-94de-2ec60c5e5b04.jpg> 
 <img src=https://user-images.githubusercontent.com/32169384/198613772-995b0b8f-1287-4215-b6c6-f1a3a60b0e48.jpg> 

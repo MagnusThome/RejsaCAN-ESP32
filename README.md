@@ -101,7 +101,7 @@ The idea was to make an as small as possible CAN + ESP32 board with as many cool
 
 When the engine is running and charging the car battery the incoming voltage used to power the board is a little bit higher than when the engine is stopped. This can be used to automate board shutdown so not to drain the car battery. As default the on board DC-DC power circuit will shutdown the whole board when the power voltage is below the "engine is running" threshold and boot up the board when it is above. But you can run the board in a number of other ways too, for example using ESP32 sleep mode, waking it and putting it to sleep depending on CAN traffic, voltage level from the car, delays and so on.
 
-- An output (FORCE_ON GPIO17) can be pulled high to keep the board running even if the car voltage drops below the threshold (instead of disabling the auto shutdown fully on the pcb). The ESP32 can keep this pin high even during sleep.
+- An output (FORCE_ON GPIO17) can be pulled high to keep the board running even if the car voltage drops below the threshold (instead of disabling the auto shutdown fully on the pcb by shorting the "ALWAYS ON" bridge). The ESP32 can keep this pin high even during sleep.
 
 - A digital input (SENSE_V_DIG GPIO08) monitors if the car voltage is above or below the "engine running" threshold. This can both be used to trigger waking the board from sleep or just as a simple check if the engine is charging the car battery or not.  
 

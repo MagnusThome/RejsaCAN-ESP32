@@ -46,6 +46,7 @@ static void send_request (void) {
   tx_message.identifier = CAN_REQST_ID;
   tx_message.extd = 0;
   tx_message.rtr = 0;
+  tx_message.self = 0;
   tx_message.data_length_code = 8;
   tx_message.data[0] = 0x02;
   tx_message.data[1] = 0x01;
@@ -88,6 +89,7 @@ void obd2_reply (void) {
     tx_message.identifier = CAN_REPLY_ID;
     tx_message.extd = 0;
     tx_message.rtr = 0;
+    tx_message.self = 0;
     tx_message.data_length_code = 8;
     tx_message.data[0] = 0x03;
     tx_message.data[1] = 0x41;
